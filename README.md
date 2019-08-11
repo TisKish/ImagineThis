@@ -3,9 +3,9 @@ Hobby tracking project
 
 This keeps track of some of my hobbies in an orderly fashion
 
-Currently keeps track of: 
+<h4>Currently keeps track of: 
     - Yugioh
-
+</h4>
 
 
 Useful Commands:
