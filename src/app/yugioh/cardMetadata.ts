@@ -11,4 +11,5 @@ export class cardSpecifics {
     Projection: number;
     URL: string;
     Change: number;
+    Location: string;
   }

@@ -21,7 +21,7 @@
     </ion-card-header>
     <ion-card-content>
       <p>Options:</p>
-      <ion-button (click)='nameSortAsc()'>Update Prices</ion-button>
+      <ion-button (click)='recolorLocation(thisCard)'>Update Prices</ion-button>
 
       <p>Sort by:</p>
       <ion-button (click)='nameSortAsc()'>Name Asc</ion-button>
@@ -30,7 +30,7 @@
       <ion-button (click)='priceSortDesc()'>Current Price Desc</ion-button>
       <ion-button (click)='changeSortAsc()'>% Change Asc</ion-button>
       <ion-button (click)='changeSortDesc()'>% Change Desc</ion-button>
-
+      
       <p>Gray = Trunk | Blue = Bait | Green = Binder</p>
     </ion-card-content>
 
@@ -38,25 +38,16 @@
 
   <ion-content style="height:130%; overflow:visible;">
 
-    <ion-list>
-      <ion-item *ngFor="let detail of thisCard">
+    <ion-list id="cardList" name="cardList">
+      <ion-item *ngFor="let detail of thisCard; let i = index">
+      
         <a href="https://yugiohprices.com/card_price?name={{detail.URL}}">
           <img width=100px src="{{detail.Icon}}"></a>
         <div class="listItems">
           <table class="sortable" border="1"
             style="text-align:center; position: relative; padding: 3px; border-color: gray; border-inline-color: gray;">
 
-            
             <tr id="header" style="background-color: gray">
-              <script>
-              if("{{detail.CPrice}}" > 5) {
-                this.style.backgroundColor = "green";
-              }
-              else if(2 < "{{detail.CPrice}}" && "{{detail.CPrice}}" < 5) {
-                document.getElementById("header").style.backgroundColor = "blue";
-              }
-                </script>
-
               <th style="padding: 5px">Name</th>
               <th style="padding: 5px">Rarity</th>
               <th style="padding: 5px">Edition</th>
@@ -80,6 +71,7 @@
               <td style="padding: 5px">{{detail.CPrice | currency}}</td>
               <td style="padding: 5px">{{detail.Projection | currency}}</td>
               <td style="padding: 5px">{{detail.Projection / detail.OPrice | percent}}</td>
+            <td>{{detail.Location}}</td>
             </tr>
           </table>
         </div>

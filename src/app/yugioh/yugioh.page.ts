@@ -29,6 +29,7 @@ export class YugiohPage implements OnInit {
     this.currentSort = "";
     this.changeProjections(this.thisCard);
     this.changePercent(this.thisCard);
+    this.checkLocation(this.thisCard);
   }
   // add back when alpha.4 is out
   // navigate(item) {
@@ -47,6 +48,18 @@ export class YugiohPage implements OnInit {
     }
   };
 
+  recolorLocation(list) {
+    for (let index = 0; index < list.length; index++) {
+      if (list[index].Location == "Binder") {
+        document.getElementById("header").setAttribute("style", "background-color: green");
+      }
+      else if (list[index].Location == "Bait"){
+        document.getElementById("header").setAttribute("style", "background-color: blue");
+      }
+    }
+    
+ };
+
   changePercent(list) {
     for (let index = 0; index < list.length; index++) {
       if (list[index].OPrice < list[index].CPrice) {
@@ -58,9 +71,14 @@ export class YugiohPage implements OnInit {
     }
   };
 
-  changePrices(list) {
-    for (let index = 0; index < list.length + 1; index++) {
-        list[index].CPrice = list[index].CPrice.map(Number);
+  checkLocation(list) {
+    for (let index = 0; index < list.length; index++) {
+      if (list[index].CPrice >= 5) {
+        list[index].Location = "Binder";
+      }  
+      else if (2 < list[index].CPrice && list[index].CPrice < 5) {
+        list[index].Location = "Bait";
+      }
       
     }
   };

@@ -15,6 +15,7 @@ export const Card: cardSpecifics[] =
     Projection: 88,
     URL: "Artifact+Durendal",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/920975.jpg",
@@ -29,6 +30,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Number+9%3A+Dyson+Sphere",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/334610.jpg",
@@ -43,6 +45,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Vanity%27s+Fiend",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/51FmkkkhZ7L.jpg",
@@ -57,6 +60,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Earthbound+Immortal+Uru",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1064498.jpg",
@@ -71,6 +75,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Yazi%2C+Evil+of+the+Yang+Zing",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/51x6y3XkGIL.jpg",
@@ -85,6 +90,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Karakuri+Steel+Shogun+mdl+00X+'Bureido'",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/58430_200w.jpg",
@@ -99,6 +105,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Karakuri%20Shogun%20mdl%2000%20'Burei'",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://i1.wp.com/www.tradingcardmint.com/wp-content/uploads/2017/07/CROS-EN038U-Nekroz-of-Sophia-Ultimate-Rare.jpg?fit=490%2C704&ssl=1",
@@ -113,6 +120,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Nekroz+of+Sophia",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/208263.jpg",
@@ -127,6 +135,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Tualatin",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1094706.jpg",
@@ -141,6 +150,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Amorphage+Sloth",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/322465.jpg",
@@ -155,6 +165,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Phantom+of+Chaos",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://crystal-cdn3.crystalcommerce.com/photos/6414780/SPWAEN016.jpg",
@@ -169,6 +180,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Magical+Musketeer+Caspar",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://static-3.studiobebop.net/ygo_data/card_images/Gnomaterial.jpg",
@@ -183,6 +195,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Gnomaterial",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://i1.wp.com/www.tradingcardmint.com/wp-content/uploads/2017/11/SPWA-EN019-Magical-Musketeer-Starfire-Secret-Rare.jpg?fit=490%2C700&ssl=1",
@@ -197,6 +210,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Magical+Musketeer+Starfire",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1458383.jpg",
@@ -211,6 +225,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Psychic+Wheeleder",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/519WdrFF1wL.jpg",
@@ -225,6 +240,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Sky+Striker+Mobilize+-+Engage%21",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/94569_200w.jpg",
@@ -239,6 +255,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Yazi%2C+Evil+of+the+Yang+Zing",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/61dLkg5ZSXL._SY450_.jpg",
@@ -253,6 +270,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Nirvana+High+Paladin",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1079406.jpg",
@@ -267,6 +285,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "PSY-Framelord%20Omega",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://static-3.studiobebop.net/ygo_data/card_images/Nekroz_of_Gungnir.jpg",
@@ -281,6 +300,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Nekroz+of+Gungnir",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/51NV25xafQL.jpg",
@@ -295,6 +315,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Topologic+Bomber+Dragon",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/193634_200w.jpg",
@@ -309,6 +330,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Harpie+Conductor",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1458341.jpg",
@@ -323,6 +345,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Cyberse+Quantum+Dragon",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/51%2Bira5ZGfL.jpg",
@@ -337,6 +360,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Summoned+Skull",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://images-na.ssl-images-amazon.com/images/I/511RwQj898L.jpg",
@@ -351,6 +375,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Obelisk%20the%20Tormentor",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://i.ebayimg.com/images/g/lEAAAOSwcZ1cT8Op/s-l300.jpg",
@@ -365,6 +390,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Altergeist+Multifaker",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1166124.jpg",
@@ -379,6 +405,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Ash+Blossom+%26+Joyous+Spring",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1186279.jpg",
@@ -393,6 +420,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Ash+Blossom+%26+Joyous+Spring",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1105730.jpg",
@@ -407,6 +435,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Meteor+Black+Comet+Dragon",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1102229.jpg",
@@ -421,6 +450,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Frightfur+Sabre-Tooth",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1049982.jpg",
@@ -435,6 +465,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Ghostrick+Mary",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1101948.jpg",
@@ -449,6 +480,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Ghost+Ogre+%26+Snow+Rabbit",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1113592.jpg",
@@ -463,6 +495,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Effect+Veiler",
     Change: 0,
+    Location: "Trunk",
   },
   {
     Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/23221_200w.jpg",
@@ -477,6 +510,7 @@ export const Card: cardSpecifics[] =
     Projection: (6.30 - 6.30),
     URL: "Soul-Absorbing+Bone+Tower",
     Change: 0,
+    Location: "Trunk",
   },
 ];
 
