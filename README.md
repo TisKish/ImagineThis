@@ -8,10 +8,10 @@ This keeps track of some of my hobbies in an orderly fashion
 </h4>
 
 <h3>
-Useful Commands:<br>
+Useful Commands:<br></h3>
 - npm install -g ionic<br>
-    (Installs Ionic CLI)
+    (Installs Ionic CLI)<br>
 
 - ionic serve<br>
     (Start your Ionic App)
-    </h3>
+   
