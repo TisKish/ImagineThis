@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Card } from './card-database';
 import { Router } from '@angular/router';
+import { DataService } from "../services/data.service"
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-yugioh',
@@ -13,8 +15,12 @@ export class YugiohPage implements OnInit {
   private selectedItem: any;
   thisCard = Card;
   currentSort: any;
+  public searchTerm: string = "";
+  public yugiohDatabase: any;
+  searching: any = false;
+  searchControl: FormControl;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private dataService: DataService) {
     // for (let i = 0; i < this.thisCard.length+1; i++) {
     //   this.thisCard.push({
     //     title: 'Item ' + i,
@@ -25,11 +31,12 @@ export class YugiohPage implements OnInit {
   }
 
   ngOnInit() {
-    
+
     this.currentSort = "";
-    this.changeProjections(this.thisCard);
-    this.changePercent(this.thisCard);
-    this.checkLocation(this.thisCard);
+    this.setFilteredItems();
+    this.changeProjections(this.yugiohDatabase);
+    this.changePercent(this.yugiohDatabase);
+    this.checkLocation(this.yugiohDatabase);
   }
   // add back when alpha.4 is out
   // navigate(item) {
@@ -48,17 +55,39 @@ export class YugiohPage implements OnInit {
     }
   };
 
+  setFilteredItems() {
+    this.yugiohDatabase = this.dataService.filterYugiohDatabase(this.searchTerm);
+  }
+
+//   ionViewDidLoad() {
+
+//     this.setFilteredItems();
+
+//     this.searchControl.valueChanges.debounceTime(700).subscribe(search => {
+
+//         this.searching = false;
+//         this.setFilteredItems();
+
+//     });
+
+
+// }
+
+onSearchInput(){
+    this.searching = true;
+}
+
   recolorLocation(list) {
     for (let index = 0; index < list.length; index++) {
       if (list[index].Location == "Binder") {
         document.getElementById("header").setAttribute("style", "background-color: green");
       }
-      else if (list[index].Location == "Bait"){
+      else if (list[index].Location == "Bait") {
         document.getElementById("header").setAttribute("style", "background-color: blue");
       }
     }
-    
- };
+
+  };
 
   changePercent(list) {
     for (let index = 0; index < list.length; index++) {
@@ -71,15 +100,40 @@ export class YugiohPage implements OnInit {
     }
   };
 
+  dynamicSearch() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("searchId");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("binderList");
+    tr = table.getElementsByTagName('tr')[1];
+    alert(table.length)
+    // alert(tr.getElementsByTagName('td')[0].var)
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr.getElementsByTagName("td")[0];
+      alert("td is " + td)
+      if (td) {
+        alert("td is " + td)
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          alert("td is " + td)
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+
   checkLocation(list) {
     for (let index = 0; index < list.length; index++) {
       if (list[index].CPrice >= 5) {
         list[index].Location = "Binder";
-      }  
+      }
       else if (2 < list[index].CPrice && list[index].CPrice < 5) {
         list[index].Location = "Bait";
       }
-      
+
     }
   };
 
@@ -111,28 +165,28 @@ export class YugiohPage implements OnInit {
   }
 
   nameSortAsc() {
-    this.currentSort = this.GetSortOrderAsc(Card.sort(this.GetSortOrderAsc("Name")));
+    this.currentSort = this.GetSortOrderAsc(this.yugiohDatabase.sort(this.GetSortOrderAsc("Name")));
   }
 
   nameSortDesc() {
-    this.currentSort = this.GetSortOrderDesc(Card.sort(this.GetSortOrderDesc("Name")));
+    this.currentSort = this.GetSortOrderDesc(this.yugiohDatabase.sort(this.GetSortOrderDesc("Name")));
   }
 
   priceSortAsc() {
-    this.currentSort = this.GetSortOrderAsc(Card.sort(this.GetSortOrderAsc("CPrice")));
+    this.currentSort = this.GetSortOrderAsc(this.yugiohDatabase.sort(this.GetSortOrderAsc("CPrice")));
   }
 
   priceSortDesc() {
-    this.currentSort = this.GetSortOrderDesc(Card.sort(this.GetSortOrderDesc("CPrice")));
+    this.currentSort = this.GetSortOrderDesc(this.yugiohDatabase.sort(this.GetSortOrderDesc("CPrice")));
   }
 
   changeSortAsc() {
-    this.currentSort = this.GetSortOrderAsc(Card.sort(this.GetSortOrderAsc("Change")));
+    this.currentSort = this.GetSortOrderAsc(this.yugiohDatabase.sort(this.GetSortOrderAsc("Change")));
 
   }
 
   changeSortDesc() {
-    this.currentSort = this.GetSortOrderDesc(Card.sort(this.GetSortOrderDesc("Change")));
+    this.currentSort = this.GetSortOrderDesc(this.yugiohDatabase.sort(this.GetSortOrderDesc("Change")));
   }
 
 }

@@ -5,3 +5,30 @@
 .locationHeader {
     background-color: gray;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+  #binderList {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  #binderList th, #binderList td {
+    text-align: center;
+  }
+  
+  #binderList tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #binderList tr.header, #binderList tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .spinner-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
