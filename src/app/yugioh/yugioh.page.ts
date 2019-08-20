@@ -46,7 +46,7 @@ export class YugiohPage implements OnInit {
 
   changeProjections(list) {
     for (let index = 0; index < list.length; index++) {
-      if (list[index].PPrice < list[index].CPrice) {
+      if (list[index].PPrice < list[index].OPrice) {
         list[index].Projection = list[index].CPrice - list[index].PPrice;
       }
       else {
@@ -79,6 +79,11 @@ onSearchInput(){
 
   recolorLocation(list) {
     for (let index = 0; index < list.length; index++) {
+      //route to url
+      //screen grab by id
+      //store into global id
+      //route back 
+      //update list
       if (list[index].Location == "Binder") {
         document.getElementById("header").setAttribute("style", "background-color: green");
       }

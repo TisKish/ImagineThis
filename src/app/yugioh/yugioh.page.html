@@ -43,7 +43,7 @@
   autocomplete="on"
   [(ngModel)]="searchTerm"></ion-searchbar>
 
-  <ion-content style="height:130%; overflow:visible;">
+  <ion-content style="max-width:95%; overflow:visible;">
 
       <div *ngIf="searching" class="spinner-container">
           <ion-spinner></ion-spinner>
@@ -56,7 +56,7 @@
         <ion-item-sliding>
           <h2>{{detail.Name}}</h2>
           <ion-item>
-            <a href="https://yugiohprices.com/card_price?name={{detail.URL}}"><img width=100px
+            <a href="https://shop.tcgplayer.com/yugioh/{{detail.URL}}"><img width=100px
                 src="{{detail.Icon}}"></a>
 
             <div class="listItems">
@@ -84,7 +84,7 @@
                     <td style="padding: 5px">{{detail.PPrice | currency}}</td>
                     <td style="padding: 5px">{{detail.CPrice | currency}}</td>
                     <td style="padding: 5px">{{detail.Projection | currency}}</td>
-                    <td style="padding: 5px">{{detail.Projection / detail.OPrice | percent}}</td>
+                    <td style="padding: 5px">{{detail.Change | percent}}</td>
                     <td>{{detail.Location}}</td>
                   </tr>
                 </tbody>
