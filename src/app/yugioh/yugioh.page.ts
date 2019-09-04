@@ -135,7 +135,7 @@ onSearchInput(){
       if (list[index].CPrice >= 5) {
         list[index].Location = "Binder";
       }
-      else if (2 < list[index].CPrice && list[index].CPrice < 5) {
+      else if (1.5 < list[index].CPrice && list[index].CPrice < 5) {
         list[index].Location = "Bait";
       }
 
