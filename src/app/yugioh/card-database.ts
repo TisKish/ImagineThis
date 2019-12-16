@@ -11,7 +11,7 @@ export const Card: cardSpecifics[] =
     Owned: 2,
     OPrice: 6.30,
     PPrice: 6.30,
-    CPrice: 6.30,
+    CPrice: 6.51,
     Projection: 88,
     URL: "Artifact+Durendal",
     Change: 0,
