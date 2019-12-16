@@ -839,7 +839,7 @@ export class DataService {
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "MP15",
-        Owned: 2,
+        Owned: 1,
         OPrice: 5,
         PPrice: 2.34,
         CPrice: 2.94,
