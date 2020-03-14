@@ -74,7 +74,6 @@ export class YugiohPage implements OnInit {
   }
 
   fullUpdate() {
-    var require: any;
     for (let index = 0; index < this.yugiohDatabase.length; index++) {
       this.yugiohDatabase[index].PPrice = this.yugiohDatabase[index].CPrice;
       var newPrice = prompt(
@@ -91,11 +90,13 @@ export class YugiohPage implements OnInit {
 
         // --- Try to replace the real values with new values in code ---
         const replace = require('replace-in-file');
+        prompt("replace is: " + replace);
         const options = {
           files: 'src/app/services/data.service.ts',
           from: this.yugiohDatabase[index].CPrice,
           to: newPrice
         };
+        prompt("options is: " + options);
 
         try {
           const results = replace.sync(options);
