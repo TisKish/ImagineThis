@@ -84,6 +84,9 @@ onSearchInput(){
       if (newPrice != null) {
         this.yugiohDatabase[index].CPrice = newPrice;
       }
+      else {
+        break;
+      }
     }
 
   }
