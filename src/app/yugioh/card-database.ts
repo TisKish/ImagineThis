@@ -1,3 +1,9 @@
+// =================================================================
+// ========== DO NOT USE THIS. USE DATA.SERVICE INSTEAD ===========
+// =============================================================
+
+
+
 import { cardSpecifics } from './cardMetadata';
 
 export const Card: cardSpecifics[] =  

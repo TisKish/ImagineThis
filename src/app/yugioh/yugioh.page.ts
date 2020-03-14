@@ -77,22 +77,16 @@ onSearchInput(){
     this.searching = true;
 }
 
-  recolorLocation(list) {
-    for (let index = 0; index < list.length; index++) {
-      //route to url
-      //screen grab by id
-      //store into global id
-      //route back 
-      //update list
-      if (list[index].Location == "Binder") {
-        document.getElementById("header").setAttribute("style", "background-color: green");
-      }
-      else if (list[index].Location == "Bait") {
-        document.getElementById("header").setAttribute("style", "background-color: blue");
+  fullUpdate() {
+    for (let index = 0; index < this.yugiohDatabase.length; index++) {
+      this.yugiohDatabase[index].PPrice = this.yugiohDatabase[index].CPrice;
+      var newPrice = prompt("Input the new price for " + this.yugiohDatabase[index].Name + " Rarity: " + this.yugiohDatabase[index].Rarity + " From: " + this.yugiohDatabase[index].Pack);
+      if (newPrice != null) {
+        this.yugiohDatabase[index].CPrice = newPrice;
       }
     }
 
-  };
+  }
 
   changePercent(list) {
     for (let index = 0; index < list.length; index++) {
