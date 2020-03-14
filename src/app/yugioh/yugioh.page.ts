@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { Card } from './card-database';
-import { Router } from '@angular/router';
-import { DataService } from "../services/data.service"
-import { FormControl } from '@angular/forms';
+import { Component, OnInit } from "@angular/core";
+import { Card } from "./card-database";
+import { Router } from "@angular/router";
+import { DataService } from "../services/data.service";
+import { FormControl } from "@angular/forms";
 
 @Component({
-  selector: 'app-yugioh',
-  templateUrl: 'yugioh.page.html',
-  styleUrls: ['yugioh.page.scss']
+  selector: "app-yugioh",
+  templateUrl: "yugioh.page.html",
+  styleUrls: ["yugioh.page.scss"]
 })
-
-
 export class YugiohPage implements OnInit {
   private selectedItem: any;
   thisCard = Card;
@@ -31,7 +29,6 @@ export class YugiohPage implements OnInit {
   }
 
   ngOnInit() {
-
     this.currentSort = "";
     this.setFilteredItems();
     this.changeProjections(this.yugiohDatabase);
@@ -43,84 +40,102 @@ export class YugiohPage implements OnInit {
   //   this.router.navigate(['/Yugioh', JSON.stringify(item)]);
   // }
 
-
   changeProjections(list) {
     for (let index = 0; index < list.length; index++) {
       if (list[index].PPrice < list[index].OPrice) {
         list[index].Projection = list[index].CPrice - list[index].PPrice;
-      }
-      else {
+      } else {
         list[index].Projection = list[index].CPrice - list[index].OPrice;
       }
     }
-  };
-
-  setFilteredItems() {
-    this.yugiohDatabase = this.dataService.filterYugiohDatabase(this.searchTerm);
   }
 
-//   ionViewDidLoad() {
+  setFilteredItems() {
+    this.yugiohDatabase = this.dataService.filterYugiohDatabase(
+      this.searchTerm
+    );
+  }
 
-//     this.setFilteredItems();
+  //   ionViewDidLoad() {
 
-//     this.searchControl.valueChanges.debounceTime(700).subscribe(search => {
+  //     this.setFilteredItems();
 
-//         this.searching = false;
-//         this.setFilteredItems();
+  //     this.searchControl.valueChanges.debounceTime(700).subscribe(search => {
 
-//     });
+  //         this.searching = false;
+  //         this.setFilteredItems();
 
+  //     });
 
-// }
+  // }
 
-onSearchInput(){
+  onSearchInput() {
     this.searching = true;
-}
+  }
 
   fullUpdate() {
     for (let index = 0; index < this.yugiohDatabase.length; index++) {
       this.yugiohDatabase[index].PPrice = this.yugiohDatabase[index].CPrice;
-      var newPrice = prompt("Input the new price for " + this.yugiohDatabase[index].Name + " Rarity: " + this.yugiohDatabase[index].Rarity + " From: " + this.yugiohDatabase[index].Pack);
+      var newPrice = prompt(
+        "Input the new price for " +
+          this.yugiohDatabase[index].Name +
+          " Rarity: " +
+          this.yugiohDatabase[index].Rarity +
+          " From: " +
+          this.yugiohDatabase[index].Pack
+      );
       if (newPrice != null) {
         this.yugiohDatabase[index].CPrice = newPrice;
-      }
-      else {
+
+        // --- Try to replace the real values with new values in code ---
+        const replace = require("replace-in-file");
+        const options = {
+          files: "src/app/services/data.service.ts",
+          from: this.yugiohDatabase[index].CPrice,
+          to: newPrice
+        };
+
+        try {
+          const results = replace.sync(options);
+          console.log("Replacement results:", results);
+        } catch (error) {
+          console.error("Error occurred:", error);
+        }
+      } else {
         break;
       }
     }
-
   }
 
   changePercent(list) {
     for (let index = 0; index < list.length; index++) {
       if (list[index].OPrice < list[index].CPrice) {
         list[index].Change = list[index].Projection / list[index].CPrice;
-      }
-      else {
+      } else {
         list[index].Change = list[index].Projection / list[index].CPrice;
       }
     }
-  };
+  }
 
   dynamicSearch() {
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("searchId");
     filter = input.value.toUpperCase();
     table = document.getElementById("binderList");
-    tr = table.getElementsByTagName('tr')[1];
-    alert(table.length)
+    tr = table.getElementsByTagName("tr")[1];
+    alert(table.length);
     // alert(tr.getElementsByTagName('td')[0].var)
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
       td = tr.getElementsByTagName("td")[0];
-      alert("td is " + td)
+      alert("td is " + td);
       if (td) {
-        alert("td is " + td)
+        alert("td is " + td);
         txtValue = td.textContent || td.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
           tr[i].style.display = "";
         } else {
-          alert("td is " + td)
+          alert("td is " + td);
           tr[i].style.display = "none";
         }
       }
@@ -131,64 +146,72 @@ onSearchInput(){
     for (let index = 0; index < list.length; index++) {
       if (list[index].CPrice >= 5) {
         list[index].Location = "Binder";
-      }
-      else if (1.5 < list[index].CPrice && list[index].CPrice < 5) {
+      } else if (1.5 < list[index].CPrice && list[index].CPrice < 5) {
         list[index].Location = "Bait";
       }
-
     }
-  };
+  }
 
   checkSite() {
     alert("This works");
-    this.router.navigate(['https://yugiohprices.com/']);
+    this.router.navigate(["https://yugiohprices.com/"]);
   }
 
   GetSortOrderAsc(prop) {
-    return function (a, b) {
+    return function(a, b) {
       if (a[prop] > b[prop]) {
         return 1;
       } else if (a[prop] < b[prop]) {
         return -1;
       }
       return 0;
-    }
+    };
   }
 
   GetSortOrderDesc(prop) {
-    return function (a, b) {
+    return function(a, b) {
       if (a[prop] < b[prop]) {
         return 1;
       } else if (a[prop] > b[prop]) {
         return -1;
       }
       return 0;
-    }
+    };
   }
 
   nameSortAsc() {
-    this.currentSort = this.GetSortOrderAsc(this.yugiohDatabase.sort(this.GetSortOrderAsc("Name")));
+    this.currentSort = this.GetSortOrderAsc(
+      this.yugiohDatabase.sort(this.GetSortOrderAsc("Name"))
+    );
   }
 
   nameSortDesc() {
-    this.currentSort = this.GetSortOrderDesc(this.yugiohDatabase.sort(this.GetSortOrderDesc("Name")));
+    this.currentSort = this.GetSortOrderDesc(
+      this.yugiohDatabase.sort(this.GetSortOrderDesc("Name"))
+    );
   }
 
   priceSortAsc() {
-    this.currentSort = this.GetSortOrderAsc(this.yugiohDatabase.sort(this.GetSortOrderAsc("CPrice")));
+    this.currentSort = this.GetSortOrderAsc(
+      this.yugiohDatabase.sort(this.GetSortOrderAsc("CPrice"))
+    );
   }
 
   priceSortDesc() {
-    this.currentSort = this.GetSortOrderDesc(this.yugiohDatabase.sort(this.GetSortOrderDesc("CPrice")));
+    this.currentSort = this.GetSortOrderDesc(
+      this.yugiohDatabase.sort(this.GetSortOrderDesc("CPrice"))
+    );
   }
 
   changeSortAsc() {
-    this.currentSort = this.GetSortOrderAsc(this.yugiohDatabase.sort(this.GetSortOrderAsc("Change")));
-
+    this.currentSort = this.GetSortOrderAsc(
+      this.yugiohDatabase.sort(this.GetSortOrderAsc("Change"))
+    );
   }
 
   changeSortDesc() {
-    this.currentSort = this.GetSortOrderDesc(this.yugiohDatabase.sort(this.GetSortOrderDesc("Change")));
+    this.currentSort = this.GetSortOrderDesc(
+      this.yugiohDatabase.sort(this.GetSortOrderDesc("Change"))
+    );
   }
-
 }
