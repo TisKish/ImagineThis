@@ -18,7 +18,6 @@ export class YugiohPage implements OnInit {
   searching: any = false;
   searchControl: FormControl;
 
-
   constructor(private router: Router, private dataService: DataService) {
     // for (let i = 0; i < this.thisCard.length+1; i++) {
     //   this.thisCard.push({
@@ -104,7 +103,8 @@ export class YugiohPage implements OnInit {
         } catch (error) {
           console.error('Error occurred:', error);
         }
-      } else {
+      }
+      if (newPrice == null) {
         break;
       }
     }
