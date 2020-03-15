@@ -1,19 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-import { Card } from './card-database';
-import { Router } from '@angular/router';
-import { DataService } from '../services/data.service';
-import { FormControl } from '@angular/forms';
+import { Component, OnInit } from "@angular/core";
+import { Card } from "./card-database";
+import { Router } from "@angular/router";
+import { DataService } from "../services/data.service";
+import { FormControl } from "@angular/forms";
 
 @Component({
-  selector: 'app-yugioh',
-  templateUrl: 'yugioh.page.html',
-  styleUrls: ['yugioh.page.scss']
+  selector: "app-yugioh",
+  templateUrl: "yugioh.page.html",
+  styleUrls: ["yugioh.page.scss"]
 })
 export class YugiohPage implements OnInit {
   private selectedItem: any;
   thisCard = Card;
   currentSort: any;
-  public searchTerm: string = '';
+  public searchTerm: string = "";
   public yugiohDatabase: any;
   searching: any = false;
   searchControl: FormControl;
@@ -29,7 +29,7 @@ export class YugiohPage implements OnInit {
   }
 
   ngOnInit() {
-    this.currentSort = '';
+    this.currentSort = "";
     this.setFilteredItems();
     this.changeProjections(this.yugiohDatabase);
     this.changePercent(this.yugiohDatabase);
@@ -77,11 +77,11 @@ export class YugiohPage implements OnInit {
     for (let index = 0; index < this.yugiohDatabase.length; index++) {
       this.yugiohDatabase[index].PPrice = this.yugiohDatabase[index].CPrice;
       var newPrice = prompt(
-        'Input the new price for ' +
+        "Input the new price for " +
           this.yugiohDatabase[index].Name +
-          ' Rarity: ' +
+          " Rarity: " +
           this.yugiohDatabase[index].Rarity +
-          ' From: ' +
+          " From: " +
           this.yugiohDatabase[index].Pack
       );
 
@@ -89,21 +89,6 @@ export class YugiohPage implements OnInit {
         this.yugiohDatabase[index].CPrice = newPrice;
 
         // --- Try to replace the real values with new values in code ---
-        const replace = require('replace-in-file');
-        prompt("replace is: " + replace);
-        const options = {
-          files: 'src/app/services/data.service.ts',
-          from: this.yugiohDatabase[index].CPrice,
-          to: newPrice
-        };
-        prompt("options is: " + options);
-
-        try {
-          const results = replace.sync(options);
-          console.log('Replacement results:', results);
-        } catch (error) {
-          console.error('Error occurred:', error);
-        }
       }
       if (newPrice == null) {
         break;
@@ -123,24 +108,24 @@ export class YugiohPage implements OnInit {
 
   dynamicSearch() {
     var input, filter, table, tr, td, i, txtValue;
-    input = document.getElementById('searchId');
+    input = document.getElementById("searchId");
     filter = input.value.toUpperCase();
-    table = document.getElementById('binderList');
-    tr = table.getElementsByTagName('tr')[1];
+    table = document.getElementById("binderList");
+    tr = table.getElementsByTagName("tr")[1];
     alert(table.length);
     // alert(tr.getElementsByTagName('td')[0].var)
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
-      td = tr.getElementsByTagName('td')[0];
-      alert('td is ' + td);
+      td = tr.getElementsByTagName("td")[0];
+      alert("td is " + td);
       if (td) {
-        alert('td is ' + td);
+        alert("td is " + td);
         txtValue = td.textContent || td.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = '';
+          tr[i].style.display = "";
         } else {
-          alert('td is ' + td);
-          tr[i].style.display = 'none';
+          alert("td is " + td);
+          tr[i].style.display = "none";
         }
       }
     }
@@ -149,16 +134,16 @@ export class YugiohPage implements OnInit {
   checkLocation(list) {
     for (let index = 0; index < list.length; index++) {
       if (list[index].CPrice >= 5) {
-        list[index].Location = 'Binder';
+        list[index].Location = "Binder";
       } else if (1.5 < list[index].CPrice && list[index].CPrice < 5) {
-        list[index].Location = 'Bait';
+        list[index].Location = "Bait";
       }
     }
   }
 
   checkSite() {
-    alert('This works');
-    this.router.navigate(['https://yugiohprices.com/']);
+    alert("This works");
+    this.router.navigate(["https://yugiohprices.com/"]);
   }
 
   GetSortOrderAsc(prop) {
@@ -185,37 +170,37 @@ export class YugiohPage implements OnInit {
 
   nameSortAsc() {
     this.currentSort = this.GetSortOrderAsc(
-      this.yugiohDatabase.sort(this.GetSortOrderAsc('Name'))
+      this.yugiohDatabase.sort(this.GetSortOrderAsc("Name"))
     );
   }
 
   nameSortDesc() {
     this.currentSort = this.GetSortOrderDesc(
-      this.yugiohDatabase.sort(this.GetSortOrderDesc('Name'))
+      this.yugiohDatabase.sort(this.GetSortOrderDesc("Name"))
     );
   }
 
   priceSortAsc() {
     this.currentSort = this.GetSortOrderAsc(
-      this.yugiohDatabase.sort(this.GetSortOrderAsc('CPrice'))
+      this.yugiohDatabase.sort(this.GetSortOrderAsc("CPrice"))
     );
   }
 
   priceSortDesc() {
     this.currentSort = this.GetSortOrderDesc(
-      this.yugiohDatabase.sort(this.GetSortOrderDesc('CPrice'))
+      this.yugiohDatabase.sort(this.GetSortOrderDesc("CPrice"))
     );
   }
 
   changeSortAsc() {
     this.currentSort = this.GetSortOrderAsc(
-      this.yugiohDatabase.sort(this.GetSortOrderAsc('Change'))
+      this.yugiohDatabase.sort(this.GetSortOrderAsc("Change"))
     );
   }
 
   changeSortDesc() {
     this.currentSort = this.GetSortOrderDesc(
-      this.yugiohDatabase.sort(this.GetSortOrderDesc('Change'))
+      this.yugiohDatabase.sort(this.GetSortOrderDesc("Change"))
     );
   }
 }
