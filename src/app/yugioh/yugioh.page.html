@@ -49,20 +49,23 @@
           <ion-spinner></ion-spinner>
         </div>
 
-    <ion-item *ngFor="let detail of yugiohDatabase; let i = index">
+    <ion-item *ngFor="let detail of cards; index as index">
 
 
       <ion-list id="masterList">
         <ion-item-sliding>
-          <h2>{{detail.Name}}</h2>
+          <ng-template viewMode><h2>{{detail.Name}}</h2></ng-template>
           <ion-item>
+            <ng-template viewMode>
             <a href="https://shop.tcgplayer.com/yugioh/{{detail.URL}}"><img width=100px
                 src="{{detail.Icon}}"></a>
-
+              </ng-template>
             <div class="listItems">
               <table id="binderList" class="sortable" border="1"
                 style="text-align:center; position: relative; padding: 3px; border-color: gray; border-inline-color: gray;">
                 <tbody>
+                    <editable (update)="updateField(index, 'name')">
+
                   <tr class="header" style="background-color: gray">
                     <th style="padding: 5px">Rarity</th>
                     <th style="padding: 5px">Edition</th>
@@ -76,9 +79,9 @@
 
                   </tr>
                   <tr>
-                    <td style="padding: 5px">{{detail.Rarity}}</td>
-                    <td style="padding: 5px">{{detail.Edition}}</td>
-                    <td style="padding: 5px">{{detail.Pack}}</td>
+                    <ng-template viewMode><td style="padding: 5px">{{detail.Rarity}}</td></ng-template>
+                    <ng-template viewMode><td style="padding: 5px">{{detail.Edition}}</td></ng-template>
+                    <ng-template viewMode><td style="padding: 5px">{{detail.Pack}}</td></ng-template>
                     <td style="padding: 5px">{{detail.Owned}}</td>
                     <td style="padding: 5px">{{detail.OPrice | currency}}</td>
                     <td style="padding: 5px">{{detail.PPrice | currency}}</td>
@@ -87,14 +90,13 @@
                     <td style="padding: 5px">{{detail.Change | percent}}</td>
                     <td>{{detail.Location}}</td>
                   </tr>
+                </editable>
+
                 </tbody>
               </table>
             </div>
 
           </ion-item>
-          <ion-item-options side="end">
-            <ion-item-option (click)="unread(item)">Edit</ion-item-option>
-          </ion-item-options>
         </ion-item-sliding>
       </ion-list>
     </ion-item>

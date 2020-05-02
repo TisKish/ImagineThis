@@ -16,7 +16,7 @@ export class DataService {
   }
 
   getAll() {
-    return this.http.get('src/app/data/cards.json');
+    // return this.http.get('app/data/cards.json').pipe(new Map((res: Response) => res.json()));
   }
 }
 
