@@ -1,8 +1,8 @@
+import { Card, DataService } from "../services/data.service";
 import { Component, OnInit } from "@angular/core";
-import { Card } from "./card-database";
-import { Router } from "@angular/router";
-import { DataService } from "../services/data.service";
+
 import { FormControl } from "@angular/forms";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-yugioh",
@@ -10,7 +10,8 @@ import { FormControl } from "@angular/forms";
   styleUrls: ["yugioh.page.scss"]
 })
 export class YugiohPage implements OnInit {
-  private selectedItem: any;
+  query: string;
+  searchResults: any;
   thisCard = Card;
   currentSort: any;
   public searchTerm: string = "";
@@ -29,6 +30,10 @@ export class YugiohPage implements OnInit {
   }
 
   ngOnInit() {
+    this.dataService.getAll().subscribe(
+      data => { this.searchResults = data; },
+      error => console.log(error)
+    )
     this.currentSort = "";
     this.setFilteredItems();
     this.changeProjections(this.yugiohDatabase);
