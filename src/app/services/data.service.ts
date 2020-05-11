@@ -11,6 +11,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/82726_200w.jpg",
         Name: "Artifact Durendal",
+        Detail: "2 Level 5 monsters Once per turn, during either player's turn, you can activate 1 of these effects. When a monster effect is activated on the field, OR when a Normal Spell/Trap Card is activated: You can detach 1 Xyz Material from this card, the activated effect becomes Destroy 1 Spell/Trap Card your opponent controls. You can detach 1 Xyz Material from this card, each player with a hand shuffles their entire hand into the Deck, then each player draws the same number of cards they shuffled into the Deck.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "PRIO",
@@ -26,6 +27,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/920975.jpg",
         Name: "Number 9: Dyson Sphere",
+        Detail: "2 Level 9 monsters Once per Battle Step, during your opponent's turn, if this card with Xyz Material is attacked: Negate the attack (this is a Quick Effect). When this card is targeted for an attack while it has no Xyz Materials. You can target 2 monsters in your Graveyard, attach those targets to this card as Xyz Materials. During your Main Phase 1: You can detach 1 Xyz Material from this card, this card can attack your opponent directly this turn. Your opponent must control a monster with higher ATK than this card for you to activate and to resolve this effect.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "ABYR",
@@ -41,6 +43,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/334610.jpg",
         Name: "Vanity's Fiend",
+        Detail: "Cannot be Special Summoned. Neither player can Special Summon monsters.",
         Rarity: "Ultimate",
         Edition: "Unlimited",
         Pack: "OP01",
@@ -56,6 +59,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/51FmkkkhZ7L.jpg",
         Name: "Earthbound Immortal Uru",
+        Detail: "There can only be 1 "Earthbound Immortal" monster on the field. If there is no face-up Field Spell Card on the field, destroy this card. Your opponent cannot target this card for attacks. This card can attack your opponent directly. Once per turn: You can Tribute 1 other monster, then target 1 face-up monster your opponent controls; take control of that target, until the End Phase.",
         Rarity: "Ultimate",
         Edition: "Unlimited",
         Pack: "SOVR",
@@ -71,6 +75,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1064498.jpg",
         Name: "Yazi, Evil of the Yang Zing",
+        Detail: "1 Tuner + 1 or more non-Tuner monsters Cannot be targeted by an opponent's card effects. You can only use each of these effects of Yazi, Evil of the Yang Zing once per turn. ● You can target 1 "Yang Zing" monster you control and 1 card your opponent controls; destroy them. ● When this card you control is destroyed by battle or card effect and sent to your Graveyard: You can Special Summon 1 Wyrm-Type monster from your Deck in Defense Position.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "NECH",
@@ -86,6 +91,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/51x6y3XkGIL.jpg",
         Name: "Karakuri Steel Shogun MDL 00X 'Bureido'",
+        Detail: "1 Tuner + 1 or more non-Tuner Machine-Type monsters When this card is Synchro Summoned: You can Special Summon 1 Karakuri monster from your Deck. Once per turn, when the battle position of a face-up Karakuri monster you control is changed (and remains face-up): Draw 1 card.",
         Rarity: "Ultimate",
         Edition: "Unlimited",
         Pack: "STOR",
@@ -101,6 +107,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/58430_200w.jpg",
         Name: "Karakuri Shogun MDL 00 'Burei'",
+        Detail: "1 Tuner + 1 or more non-Tuner Machine-Type monsters When this card is Synchro Summoned: You can Special Summon 1 Karakuri monster from your Deck. Once per turn: You can target 1 monster on the field; change its battle position.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "STBL",
@@ -116,6 +123,7 @@ export class DataService {
       {
         Icon: "https://i1.wp.com/www.tradingcardmint.com/wp-content/uploads/2017/07/CROS-EN038U-Nekroz-of-Sophia-Ultimate-Rare.jpg?fit=490%2C704&ssl=1",
         Name: "Nekroz of Sophia",
+        Detail: "You can Ritual Summon this card with any Nekroz Ritual Spell Card. Must be Ritual Summoned from your hand by using 3 monsters you control with different Types, and cannot be Special Summoned by other ways. During either player's Main Phase 1: You can discard this card and 1 Nekroz Spell Card; your opponent cannot Special Summon monsters from the Extra Deck during this phase. When this card is Ritual Summoned: You can banish all other cards on the field and in the Graveyards. You cannot Normal Summon/Set or Special Summon other monsters the turn you activate this effect.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "CROS",
@@ -131,6 +139,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/208263.jpg",
         Name: "Tualatin",
+        Detail: "If it is your opponent's Battle Phase, and all monsters you controlled at the start of this Battle Phase (min. 2) have been destroyed by battle and sent to the Graveyard: You can Special Summon this card from your hand. If Summoned this way: Choose an Attribute and destroy all face-up monsters with that Attribute. Your opponent cannot Normal or Special Summon monsters with that Attribute.",
         Rarity: "Secret",
         Edition: "Unlimited",
         Pack: "LODT",
@@ -146,6 +155,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1094706.jpg",
         Name: "Amorphage Sloth",
+        Detail: "While you control an Amorphage monster, neither player can add cards from their Deck to their hand except by drawing them. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card. Neither player can Special Summon monsters from the Extra Deck, except Amorphage monsters.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "SHVI",
@@ -161,6 +171,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/322465.jpg",
         Name: "Phantom of Chaos",
+        Detail: "Your opponent takes no battle damage from attacks involving this card. Once per turn: You can target 1 Effect Monster in your GY; banish that target, and if you do, until the End Phase, this card's name and original ATK become that monster's name and original ATK, and replace this effect with that monster's original effects. You must control this face-up card to activate and to resolve this effect.",
         Rarity: "Secret",
         Edition: "Unlimited",
         Pack: "LCGX",
@@ -176,6 +187,7 @@ export class DataService {
       {
         Icon: "https://crystal-cdn3.crystalcommerce.com/photos/6414780/SPWAEN016.jpg",
         Name: "Magical Muketeer Caspar",
+        Detail: "During either player's turn, you can activate Magical Musket Spell/Trap Cards from your hand. If a Spell/Trap Card is activated in this card's column (except during the Damage Step): You can add 1 Magical Musket card from your Deck to your hand, but not a card with the same name as that activated card. You can only use this effect of Magical Musketeer Caspar once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "SPWA",
@@ -191,6 +203,7 @@ export class DataService {
       {
         Icon: "https://static-3.studiobebop.net/ygo_data/card_images/Gnomaterial.jpg",
         Name: "Gnomaterial",
+        Detail: "If your opponent Special Summons a monster(s) while you control no cards: You can discard this card, then target 1 face-up monster your opponent controls; this turn, that monster cannot be Tributed, or used as material for a Fusion, Synchro, Xyz, or Link Summon. You can only use this effect of Gnomaterial once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "DANE",
@@ -206,6 +219,7 @@ export class DataService {
       {
         Icon: "https://i1.wp.com/www.tradingcardmint.com/wp-content/uploads/2017/11/SPWA-EN019-Magical-Musketeer-Starfire-Secret-Rare.jpg?fit=490%2C700&ssl=1",
         Name: "Magical Musketeer Starfire",
+        Detail: "During either player's turn, you can activate Magical Musket Spell/Trap Cards from your hand. If a Spell/Trap Card is activated in this card's column (except during the Damage Step): You can Special Summon 1 Level 4 or lower Magical Musket monster from your Deck in Defense Position, except Magical Musketeer Starfire. You can only use this effect of Magical Musketeer Starfire once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "SPWA",
@@ -221,6 +235,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/184130_200w.jpg",
         Name: "Psychic Wheeleder",
+        Detail: "If you control a Level 3 monster other than Psychic Wheeleder, you can Special Summon this card (from your hand) in Defense Position. You can only Special Summon Psychic Wheeleder once per turn this way. If this card is sent to the GY as Synchro Material: You can target 1 monster on the field with less ATK than the Synchro Monster that used this card as material; destroy it. You can only use this effect of Psychic Wheeleder once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "SAST",
@@ -236,6 +251,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/519WdrFF1wL.jpg",
         Name: "Sky Striker Mobilize - Engage!",
+        Detail: "If you control no monsters in your Main Monster Zones: Add 1 Sky Striker card from your Deck to your hand, except Sky Striker Mobilize - Engage!, then, if you have 3 or more Spells in your GY, you can draw 1 card.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLHR",
@@ -251,6 +267,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/94569_200w.jpg",
         Name: "Yazi, Evil of the Yang Zing",
+        Detail: "1 Tuner + 1 or more non-Tuner monsters Cannot be targeted by an opponent's card effects. You can only use each of these effects of Yazi, Evil of the Yang Zing once per turn. ● You can target 1 Yang Zing monster you control and 1 card your opponent controls; destroy them. ● When this card you control is destroyed by battle or card effect and sent to your Graveyard: You can Special Summon 1 Wyrm-Type monster from your Deck in Defense Position.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP15",
@@ -266,6 +283,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/61dLkg5ZSXL._SY450_.jpg",
         Name: "Nirvana High Paladin",
+        Detail: "Pendulum Effect: If a Pendulum Monster you control attacks, for that battle, it cannot be destroyed by battle, also you take no battle damage. At the end of the Damage Step, if a Pendulum Monster you control attacked: All monsters your opponent currently controls lose ATK equal to that attacking monster's ATK, until the end of this turn. Monster Effect: 1 Tuner + 1 or more non-Tuner Synchro Monsters For this card's Synchro Summon, you can treat 1 Pendulum Summoned Pendulum Monster you control as a Tuner. If this card is Synchro Summoned using a Pendulum Summoned Pendulum Monster Tuner: You can target 1 card in your Graveyard; add it to your hand. When this card destroys an opponent's monster by battle: You can halve your opponent's LP. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "TDIL",
@@ -281,6 +299,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1079406.jpg",
         Name: "PSY-Framelord Omega",
+        Detail: "1 Tuner + 1+ non-Tuner monsters Once per turn, during the Main Phase (Quick Effect): You can banish both this face-up card from the field and 1 random card from your opponent's hand, face-up, until your next Standby Phase. Once per turn, during your opponent's Standby Phase: You can target 1 banished card; return it to the GY. If this card is in your GY: You can target 1 other card in the GY; shuffle both that card and this card from the GY into the Deck.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -296,6 +315,7 @@ export class DataService {
       {
         Icon: "https://static-3.studiobebop.net/ygo_data/card_images/Nekroz_of_Gungnir.jpg",
         Name: "Nekroz of Gungnir",
+        Detail: "You can Ritual Summon this card with any Nekroz Ritual Spell Card. Must be Ritual Summoned, without using any Level 7 monsters, and cannot be Special Summoned by other ways. You can only use each of these effects of Nekroz of Gungnir once per turn. ● During either player's turn: You can discard this card, then target 1 Nekroz monster you control; it cannot be destroyed by battle or by card effects this turn. ● During either player's turn: You can discard 1 Nekroz card, then target 1 card on the field; destroy it.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP15",
@@ -311,6 +331,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/51NV25xafQL.jpg",
         Name: "Topologic Bomber Dragon",
+        Detail: "2+ Effect Monsters If another monster is Special Summoned to a zone a Link Monster points to, while this monster is on the field: Destroy all monsters in the Main Monster Zones, also your other monsters cannot attack for the rest of this turn. After damage calculation, if this card attacked an opponent's monster: Inflict damage to your opponent equal to that monster's original ATK.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP18",
@@ -326,6 +347,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/193634_200w.jpg",
         Name: "Harpie Conductor",
+        Detail: "2 WIND monsters This card's name becomes Harpie Lady while on the field or in the GY. You can only use each of the following effects of Harpie Conductor once per turn. ● If a Harpie monster(s) you control would be destroyed by battle or card effect, you can destroy 1 Spell/Trap you control instead. ● If another face-up Harpie monster you control returns to your hand (except during the Damage Step): You can target 1 Special Summoned monster your opponent controls; return it to the hand.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLHR",
@@ -341,6 +363,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1458341.jpg",
         Name: "Cyberse Quantum Dragon",
+        Detail: "1 Tuner + 1+ non-Tuner monsters While you control a Link Monster, monsters your opponent controls cannot target monsters you control for attacks, except this one, also your opponent cannot target monsters you control with card effects, except this one. Once per turn, at the start of the Damage Step, if this card battles an opponent's monster: You can return that opponent's monster to the hand, also, this card can make a second attack in a row.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "SAST",
@@ -356,6 +379,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/51%2Bira5ZGfL.jpg",
         Name: "Summoned Skull",
+        Detail: "A fiend with dark powers for confusing the enemy. Among the Fiend-Type monsters, this monster boasts considerable force. (This card is always treated as an Archfiend card.)",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "YAP1",
@@ -371,6 +395,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/511RwQj898L.jpg",
         Name: "Obelisk the Tormentor",
+        Detail: "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Cannot be targeted by Spells, Traps, or card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the Graveyard. You can Tribute 2 monsters; destroy all monsters your opponent controls. This card cannot declare an attack the turn this effect is activated.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "GLD4",
@@ -386,6 +411,7 @@ export class DataService {
       {
         Icon: "https://i.ebayimg.com/images/g/lEAAAOSwcZ1cT8Op/s-l300.jpg",
         Name: "Altergeist Multifaker",
+        Detail: "If you activate a Trap Card (except during the Damage Step): You can Special Summon this card from your hand. If this card is Special Summoned: You can Special Summon 1 Altergeist monster from your Deck in Defense Position, except Altergeist Multifaker. You cannot Special Summon monsters the turn you activate this effect, except Altergeist monsters. You can only use each effect of Altergeist Multifaker once per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "FLOD",
@@ -401,6 +427,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1166124.jpg",
         Name: "Ash Blossom & Joyous Spring",
+        Detail: "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect. ● Add a card from the Deck to the hand. ● Special Summon from the Deck. ● Send a card from the Deck to the GY. You can only use this effect of Ash Blossom & Joyous Spring once per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DUPO",
@@ -416,6 +443,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1186279.jpg",
         Name: "Ash Blossom & Joyous Spring",
+        Detail: "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect. ● Add a card from the Deck to the hand. ● Special Summon from the Deck. ● Send a card from the Deck to the GY. You can only use this effect of Ash Blossom & Joyous Spring once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "SHVA",
@@ -431,6 +459,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1105730.jpg",
         Name: "Meteor Black Comet Dragon",
+        Detail: "1 Level 7 Red-Eyes monster + 1 Level 6 Dragon-Type monster If this card is Fusion Summoned: You can send 1 Red-Eyes monster from your hand or Deck to the Graveyard, and if you do, inflict damage to your opponent equal to half the original ATK of that monster. If this card is sent from the Monster Zone to the Graveyard: You can target 1 Normal Monster in your Graveyard; Special Summon it.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "INOV",
@@ -446,6 +475,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1102229.jpg",
         Name: "Frightfur Sabre-Tooth",
+        Detail: "1 Frightfur Fusion Monster + 1 or more Fluffal and/or Edge Imp monsters When this card is Fusion Summoned: You can target 1 Frightfur monster in your Graveyard; Special Summon it. All Frightfur monsters you control gain 400 ATK. If this card was Fusion Summoned using 3 or more Fusion Materials, it cannot be destroyed by battle or card effects.",
         Rarity: "Ultra",
         Edition: "1st Ediiton",
         Pack: "MP16",
@@ -461,6 +491,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1049982.jpg",
         Name: "Ghostrick Mary",
+        Detail: "Cannot be Normal Summoned, unless you control a Ghostrick monster. Once per turn: You can change this card to face-down Defense Position. When you take damage: You can discard this card; Special Summon 1 Ghostrick monster from your Deck in face-down Defense Position. You can only use this effect of Ghostrick Mary once per turn.",
         Rarity: "Super",
         Edition: "1st Ediiton",
         Pack: "LVAL",
@@ -476,6 +507,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1101948.jpg",
         Name: "Ghost Ogre & Snow Rabbit",
+        Detail: "When a monster on the field activates its effect, or when a Spell/Trap that is already face-up on the field activates its effect (Quick Effect): You can send this card from your hand or field to the GY; destroy that card on the field. You can only use this effect of Ghost Ogre & Snow Rabbit once per turn.",
         Rarity: "Super",
         Edition: "Limited",
         Pack: "CT13",
@@ -491,6 +523,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1113592.jpg",
         Name: "Effect Veiler",
+        Detail: "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
         Rarity: "Super",
         Edition: "Limited",
         Pack: "ORCS",
@@ -506,6 +539,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/23221_200w.jpg",
         Name: "Soul-Absorbing Bone Tower",
+        Detail: "If you control another Zombie-Type monster, your opponent cannot target this card for attacks. Each time a Zombie-Type monster(s) is Special Summoned: Send the top 2 cards of your opponent's Deck to the Graveyard.",
         Rarity: "Rare",
         Edition: "Unlimited/1st Edition",
         Pack: "AST",
@@ -521,6 +555,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/93982_200w.jpg",
         Name: "Earthbound Immortal Aslla Piscu",
+        Detail: "There can only be 1 Earthbound Immortal monster on the field. If there is no face-up Field Spell Card on the field, destroy this card. Your opponent cannot target this card for attacks. This card can attack your opponent directly. When this face-up card leaves the field, except by its own effect: Destroy as many face-up monsters your opponent controls as possible, and if you do, inflict 800 damage to your opponent for each monster destroyed.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "LC5D",
@@ -536,6 +571,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/79086_200w.jpg",
         Name: "Earthbound Immortal Aslla Piscu",
+        Detail: "There can only be 1 Earthbound Immortal monster on the field. If there is no face-up Field Spell Card on the field, destroy this card. Your opponent cannot target this card for attacks. This card can attack your opponent directly. When this face-up card leaves the field, except by its own effect: Destroy as many face-up monsters your opponent controls as possible, and if you do, inflict 800 damage to your opponent for each monster destroyed.",
         Rarity: "Secret",
         Edition: "Limited",
         Pack: "CT06",
@@ -551,6 +587,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/56761_200w.jpg",
         Name: "Dandylion",
+        Detail: "If this card is sent to the Graveyard: Special Summon 2 Fluff Tokens (Plant-Type/WIND/Level 1/ATK 0/DEF 0) in Defense Position. These Tokens cannot be Tributed for a Tribute Summon during the turn they are Special Summoned.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "LCGX",
@@ -566,6 +603,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122292_200w.jpg",
         Name: "Obelisk the Tormentor",
+        Detail: "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Cannot be targeted by Spells, Traps, or card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the Graveyard. You can Tribute 2 monsters; destroy all monsters your opponent controls. This card cannot declare an attack the turn this effect is activated.",
         Rarity: "Secret",
         Edition: "Limited",
         Pack: "CT13",
@@ -581,6 +619,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/79079_200w.jpg",
         Name: "Obelisk the Tormentor",
+        Detail: "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Cannot be targeted by Spells, Traps, or card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the Graveyard. You can Tribute 2 monsters; destroy all monsters your opponent controls. This card cannot declare an attack the turn this effect is activated.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "LC01",
@@ -596,6 +635,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122293_200w.jpg",
         Name: "Blue-Eyes White Dragon",
+        Detail: "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale."
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "CT13",
@@ -611,6 +651,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/97874_200w.jpg",
         Name: "Elemental Hero Blazeman",
+        Detail: "If this card is Normal or Special Summoned: You can add 1 Polymerization from your Deck to your hand. During your Main Phase: You can activate this effect; you cannot Special Summon monsters for the rest of this turn, except Fusion Monsters, also send 1 Elemental HERO monster from your Deck to the GY, except Elemental HERO Blazeman, and if you do, this card's Attribute and ATK/DEF become the same as the monster sent to the GY, until the end of this turn. You can only use 1 Elemental HERO Blazeman effect per turn, and only once that turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "WSUP",
@@ -626,6 +667,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/95476_200w.jpg",
         Name: "Farfa, Malebranche of the Burning Abyss",
+        Detail: "If you control a monster that is not a Burning Abyss monster, destroy this card. You can only use 1 of these effects of Farfa, Malebranche of the Burning Abyss per turn, and only once that turn. ● If you control no Spell/Trap Cards: You can Special Summon this card from your hand. ● If this card is sent to the Graveyard: You can target 1 monster on the field; banish it until the End Phase.",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "SECE",
@@ -641,6 +683,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/32968_200w.jpg",
         Name: "Summoned Skull",
+        Detail: "A fiend with dark powers for confusing the enemy. Among the Fiend-Type monsters, this monster boasts considerable force. (This card is always treated as an Archfiend card.)",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "DPYG",
@@ -656,6 +699,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/70893_200w.jpg",
         Name: "Fire King Avatar Yaksha",
+        Detail: "If a face-up Fire King monster you control is destroyed by a card effect (except during the Damage Step): You can Special Summon this card from your hand. If this card is destroyed and sent to the Graveyard: You can destroy 1 card in your hand or that you control. You can only use this effect of Fire King Avatar Yaksha once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "JOTL",
@@ -671,6 +715,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/193597_200w.jpg",
         Name: "Vision Hero Faris",
+        Detail: "You can discard 1 other "HERO" monster; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can place 1 Vision HERO monster from your Deck, except Vision HERO Faris, in your Spell & Trap Zone as a face-up Continuous Trap, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except "HERO" monsters. You can only use each effect of Vision HERO Faris once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLHR",
@@ -686,6 +731,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/67708_200w.jpg",
         Name: "Fire King Avatar Barong",
+        Detail: "If a face-up Fire King monster you control is destroyed by a card effect (except during the Damage Step): You can Special Summon this card from your hand. During the next Standby Phase after this card was destroyed by a card effect and sent to the Graveyard: Add 1 Fire King card from your Deck to your hand, except Fire King Avatar Barong.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "SDOK",
@@ -701,6 +747,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/26457_200w.jpg",
         Name: "Volcanic Doomfire",
+        Detail: "This card cannot be Normal Summoned or Set. This card can only be Special Summoned by sending a face-up Tri-Blaze Accelerator you control to the Graveyard. During your opponent's Battle Phase, your opponent must attack this monster with any Attack Position monsters they control. When this card destroys a monster and sends it to the Graveyard, destroy all monsters your opponent controls and inflict 500 damage to your opponent for each monster destroyed by this effect.",
         Rarity: "Secret",
         Edition: "Limited",
         Pack: "CT04",
@@ -716,6 +763,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/111196_200w.jpg",
         Name: "Black Luster Solder - Sacred Soldier",
+        Detail: "When this card is Normal or Special Summoned: You can target 1 of your banished LIGHT or DARK monsters and 1 card your opponent controls; return that banished card to the Graveyard, and if you do, banish that card your opponent controls. You can only use this effect of Black Luster Soldier - Sacred Soldier once per turn. When this card destroys an opponent's monster by battle: You can target 1 Level 7 or lower Warrior-Type monster in your Graveyard; add it to your hand.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BOSH",
@@ -731,6 +779,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/154001_200w.jpg",
         Name: "The Winged Dragon of Ra - Sphere Mode",
+        Detail: "Cannot be Special Summoned. Requires 3 Tributes from either side of the field to Normal Summon to that side of the field (cannot be Normal Set), then shift control to this card's owner during the End Phase of the next turn. Cannot attack. Your opponent cannot target this card for attacks or by card effects. You can Tribute this card; Special Summon 1 The Winged Dragon of Ra from your hand or Deck, ignoring its Summoning conditions, and if you do, its ATK/DEF become 4000.",
         Rarity: "Super",
         Edition: "Limited",
         Pack: "CIBR",
@@ -746,6 +795,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/67635_200w.jpg",
         Name: "Pyrorex the Elemental Lord",
+        Detail: "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having exactly 5 FIRE monsters in your GY. When this card is Special Summoned: You can target 1 monster your opponent controls; destroy it, and if you do, both players take damage equal to half the original ATK of the destroyed monster. You can only use this effect of Pyrorex the Elemental Lord once per turn. If this face-up card leaves the field, skip the Battle Phase of your next turn.",
         Rarity: "Secret",
         Edition: "Unlimited",
         Pack: "CBLZ",
@@ -761,6 +811,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/129992_200w.jpg",
         Name: "Kumongous, the Sticky String Kaiju",
+        Detail: "You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control. If your opponent controls a Kaiju monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 Kaiju monster. When your opponent Normal or Special Summons a monster(s): You can remove 2 Kaiju Counters from anywhere on the field; until the end of the next turn, that monster(s) cannot attack and it has its effects negated.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "OP04",
@@ -776,6 +827,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/67707_200w.jpg",
         Name: "Fire King High Avatar Garunix",
+        Detail: "During the next Standby Phase after this card was destroyed by a card effect and sent to the Graveyard: Special Summon this card from the Graveyard. When you do: Destroy all other monsters on the field. When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 Fire King monster from your Deck, except Fire King High Avatar Garunix.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "SDOK",
@@ -791,6 +843,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/148295_200w.jpg",
         Name: "Altergeist Meluseek",
+        Detail: "This card can attack directly. When this card inflicts battle damage to your opponent: You can target 1 card your opponent controls; send it to the GY. If this card is sent from the field to the GY: You can add 1 Altergeist monster from your Deck to your hand, except Altergeist Meluseek. You can only use this effect of Altergeist Meluseek once per turn.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "CIBR",
@@ -806,6 +859,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/27439_200w.jpg",
         Name: "Vampire's Curse",
+        Detail: "When this card is destroyed by battle and sent to the Graveyard: You can pay 500 Life Points; Special Summon it during the Standby Phase of the next turn. When you do: It gains 500 ATK.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "PTDN",
@@ -821,6 +875,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/131134_200w.jpg",
         Name: "Supreme King Gate Zero",
+        Detail: "Pendulum Effect: If you control Supreme King Z-ARC, you take no damage. Once per turn, if you have Supreme King Gate Infinity in your other Pendulum Zone: You can destroy both cards in your Pendulum Zones, and if you do, add 1 Polymerization Spell Card or Fusion Spell Card from your Deck to your hand. Monster Effect: Once per turn: You can target 1 other face-up card you control; destroy both it and this card, and if you do, Special Summon 1 Dragon-Type Fusion or Synchro Monster from your Extra Deck, but its ATK and DEF become 0, it has its effects negated, also it cannot be used as a Material for a Synchro or Xyz Summon. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.",
         Rarity: "Super",
         Edition: "Unlimited/1st Edition",
         Pack: "MACR",
@@ -836,6 +891,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/105144_200w.jpg",
         Name: "Artifact Moralltach",
+        Detail: "You can Set this card from your hand to your Spell & Trap Zone as a Spell Card. During your opponent's turn, if this Set card in the Spell & Trap Zone is destroyed and sent to your Graveyard: Special Summon it. If this card is Special Summoned during your opponent's turn: You can destroy 1 face-up card your opponent controls.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "MP15",
@@ -851,6 +907,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136801_200w.jpg",
         Name: "Abyss Actor - Curtain Raiser",
+        Detail: "Pendulum Effect: If you control no monsters: You can Special Summon this card from your Pendulum Zone. You can only use this effect of Abyss Actor - Curtain Raiser once per Duel. Monster Effect: Gains 1100 ATK if you control no other monsters. Once per turn: You can send 1 Abyss Script Spell from your Deck to the GY; add 1 face-up Abyss Actor Pendulum Monster from your Extra Deck to your hand.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -866,6 +923,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/141317_200w.jpg",
         Name: "Ghost Reaper & Winter Cherries",
+        Detail: "If your opponent controls more monsters than you do (Quick Effect): You can discard this card; reveal 1 card in your Extra Deck, then look at your opponent's Extra Deck, also banish all cards in their Extra Deck with the same name as that revealed card. You can only use this effect of Ghost Reaper & Winter Cherries once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP17",
@@ -881,6 +939,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/179255_200w.jpg",
         Name: "Necroworld Banshee",
+        Detail: "Neither player can target Zombie World in the Field Zone with card effects, also it cannot be destroyed by card effects. (Quick Effect): You can banish this face-up card from your field or GY; activate 1 Zombie World from your hand or Deck. You can only use this effect of Necroworld Banshee once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "SR07",
@@ -896,6 +955,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/186976_200w.jpg",
         Name: "Nekroz of Brionac",
+        Detail: "You can Ritual Summon this card with any Nekroz Ritual Spell. Must be Ritual Summoned, without using Nekroz of Brionac. You can only use each of these effects of Nekroz of Brionac once per turn. ● You can discard this card; add 1 Nekroz monster from your Deck to your hand, except Nekroz of Brionac. ● You can target up to 2 face-up monsters on the field that were Special Summoned from the Extra Deck; shuffle them into the Deck.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DUPO",
@@ -911,6 +971,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/183129_200w.jpg",
         Name: "Cyber Angel Izana",
+        Detail: "You can Ritual Summon this card with Machine Angel Ritual. If this card is Ritual Summoned: You can make your opponent send 1 Spell/Trap they control to the GY. When this attacking card destroys an opponent's monster by battle and sends it to the GY: You can activate this effect; this card can make a second attack on an opponent's monster in a row. Once per turn, when your opponent activates a card or effect that targets a Cyber Angel Ritual Monster(s) you control (Quick Effect): You can shuffle 1 Ritual Monster from your GY into the Deck, and if you do, destroy 1 card your opponent controls.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "LED4",
@@ -926,6 +987,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/96088_200w.jpg",
         Name: "Nekroz of Decisive Armor",
+        Detail: "You can Ritual Summon this card with any Nekroz Ritual Spell Card. Must be Ritual Summoned without using any Level 10 monsters, and cannot be Special Summoned by other ways. You can only use each of these effects of Nekroz of Decisive Armor once per turn. ● During either player's turn: You can discard this card, then target 1 Nekroz monster you control; it gains 1000 ATK and DEF until the end of this turn. ● You can target 1 Set card your opponent controls; destroy it, and if you do, banish it.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "THSF",
@@ -941,6 +1003,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122964_200w.jpg",
         Name: "Blue-Eyes Ultimate Dragon",
+        Detail: "Blue-Eyes White Dragon + Blue-Eyes White Dragon + Blue-Eyes White Dragon",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "DPRP",
@@ -956,6 +1019,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/56855_200w.jpg",
         Name: "Evil Hero Infernal Sniper",
+        Detail: "Elemental HERO Clayman + Elemental HERO Burstinatrix Must be Special Summoned with Dark Fusion and cannot be Special Summoned by other ways. This card cannot be destroyed by Spell Cards. During each of your Standby Phases: Inflict 1000 damage to your opponent. This card must be in face-up Defense Position to activate and to resolve this effect.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "LCGX",
@@ -971,6 +1035,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/48114_200w.jpg",
         Name: "Masked Hero Vapor",
+        Detail: "Must be Special Summoned with Mask Change, and cannot be Special Summoned by other ways. This card cannot be destroyed by card effects.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "GENF",
@@ -986,6 +1051,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/94081_200w.jpg",
         Name: "Naturia Barkion",
+        Detail: "1 EARTH Tuner + 1 or more non-Tuner EARTH monsters During either player's turn, when a Trap Card is activated: You can banish 2 cards from your Graveyard; negate the activation, and if you do, destroy it. This card must be face-up on the field to activate and to resolve this effect.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "LC5D",
@@ -1001,6 +1067,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177305_200w.jpg",
         Name: "Blackwing Full Armor Master",
+        Detail: "1 Blackwing Tuner + 1+ non-Tuner monsters Unaffected by other cards' effects. Each time a monster your opponent controls activates its effect, place 1 Wedge Counter on that opponent's monster (max. 1) after that effect resolves. Once per turn: You can target 1 monster your opponent controls with a Wedge Counter; take control of it. Once per turn, during your End Phase: You can destroy all monsters on the field with a Wedge Counter.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -1016,6 +1083,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/40070_200w.jpg",
         Name: "Overmind Archfiend",
+        Detail: "1 Psychic-Type Tuner + 2 or more non-Tuner Psychic-Type monsters Once per turn, you can select 1 Psychic-Type monster in your Graveyard, and remove it from play. When this card is sent from the field to the Graveyard, Special Summon as many monsters as possible that were removed from play by this effect.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "EXVC",
@@ -1031,6 +1099,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122437_200w.jpg",
         Name: "Scarlight Red Dragon Archfiend",
+        Detail: "1 Tuner + 1 or more non-Tuner monsters This card's name becomes Red Dragon Archfiend while it is on the field or in the Graveyard. Once per turn: You can destroy as many Special Summoned Effect Monsters on the field as possible with ATK less than or equal to this card's (other than this card), then inflict 500 damage to your opponent for each monster destroyed.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP16",
@@ -1046,6 +1115,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/93832_200w.jpg",
         Name: "Black Rose Dragon",
+        Detail: "1 Tuner + 1+ non-Tuner monsters When this card is Synchro Summoned: You can destroy all cards on the field. Once per turn: You can banish 1 Plant monster from your GY, then target 1 Defense Position monster your opponent controls; change that target to face-up Attack Position, and if you do, its ATK becomes 0 until the end of this turn.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "LC05",
@@ -1061,6 +1131,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/106037_200w.jpg",
         Name: "Hot Red Dragon Archfiend",
+        Detail: "1 Tuner + 1 or more non-Tuner monsters Once per turn, during your Main Phase 1: You can destroy all other face-up Attack Position monsters on the field. Monsters other than this card cannot attack the turn you activate this effect.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "HSRD",
@@ -1076,6 +1147,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122319_200w.jpg",
         Name: "Clear Wing Synchro Dragon",
+        Detail: "1 Tuner + 1+ non-Tuner monsters Once per turn, when another Level 5 or higher monster activates its effect on the field (Quick Effect): You can negate the activation, and if you do, destroy it. Once per turn, when a monster effect is activated that targets 1 Level 5 or higher monster on the field (and no other cards) (Quick Effect): You can negate the activation, and if you do, destroy it. If this card's effect destroys a monster, this card gains ATK equal to the destroyed monster's original ATK until the end of this turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP16",
@@ -1091,6 +1163,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/152403_200w.jpg",
         Name: "Legendary Six Samurai - Shi En",
+        Detail: "1 Warrior Tuner + 1+ non-Tuner Six Samurai monsters Once per turn, when your opponent activates a Spell/Trap Card (Quick Effect): You can negate the activation, and if you do, destroy it. If this card on the field would be destroyed by battle or card effect, you can destroy another Six Samurai monster you control instead.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "SPWA",
@@ -1106,6 +1179,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/28481_200w.jpg",
         Name: "Tempest Magician",
+        Detail: "1 Tuner + 1 or more non-Tuner Spellcaster-Type monsters When this card is Synchro Summoned, place 1 Spell Counter on it. Once per turn, you can discard any number of cards to place 1 Spell Counter on a monster(s) you control for each card you discarded. You can remove all Spell Counters on the field to inflict 500 damage to your opponent for each removed Spell Counter.",
         Rarity: "Secret",
         Edition: "Unlimited",
         Pack: "CSOC",
@@ -1121,6 +1195,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122294_200w.jpg",
         Name: "Blue-Eyes Spirit Dragon",
+        Detail: "1 Tuner + 1 or more non-Tuner Blue-Eyes monsters Neither player can Special Summon 2 or more monsters at the same time. Once per turn, during either player's turn, when an effect of a card in the Graveyard is activated: You can negate the activation. During either player's turn: You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon-Type Synchro Monster from your Extra Deck in Defense Position, except Blue-Eyes Spirit Dragon, but destroy it during the End Phase of this turn.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "CT13",
@@ -1136,6 +1211,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/186958_200w.jpg",
         Name: "Crystal Wing Synchro Dragon",
+        Detail: "1 Tuner + 1+ non-Tuner Synchro Monsters Once per turn, when another monster's effect is activated (Quick Effect): You can negate the activation, and if you do, destroy that monster, and if you do that, this card gains ATK equal to the destroyed monster's original ATK until the end of this turn. If this card battles an opponent's Level 5 or higher monster, during damage calculation: This card gains ATK equal to the current ATK of the opponent's monster it is battling during that damage calculation only.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DUPO",
@@ -1151,6 +1227,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/115847_200w.jpg",
         Name: "Ignister Prominence, the Blasting Dracoslayer",
+        Detail: "1 Tuner + 1 or more non-Tuner Pendulum Monsters Once per turn: You can target 1 Pendulum Monster on the field or 1 card in the Pendulum Zone; destroy it, and if you do, shuffle 1 card on the field into the Deck. Once per turn: You can Special Summon 1 Dracoslayer monster from your Deck in Defense Position, but it cannot be used as a Synchro Material for a Summon.",
         Rarity: "Gold",
         Edition: "1st Edition",
         Pack: "PGL3",
@@ -1166,6 +1243,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/67287_200w.jpg",
         Name: "Abyss Dweller",
+        Detail: "2 Level 4 monsters While this card has an Xyz Material attached that was originally WATER, all WATER monsters you control gain 500 ATK. Once per turn, during either player's turn: You can detach 1 Xyz Material from this card; any card effects that activate in your opponent's Graveyard cannot be activated this turn.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "ABYR",
@@ -1181,6 +1259,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/96934_200w.jpg",
         Name: "Lavalval Chain",
+        Detail: "2 Level 4 monsters Once per turn: You can detach 1 Xyz Material from this card to activate 1 of these effects; ● Send 1 card from your Deck to the Graveyard. ● Choose 1 monster from your Deck and place it on top of your Deck.",
         Rarity: "Gold",
         Edition: "1st Edition",
         Pack: "PGL2",
@@ -1196,6 +1275,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136856_200w.jpg",
         Name: "Number 107: Galaxy-Eyes Tachyon Dragon",
+        Detail: "2 Level 8 monsters Once per Battle Phase, at the start of your Battle Phase: You can detach 1 material from this card; all other face-up monsters currently on the field have their effects negated, also their ATK and DEF become their original ATK and DEF, and if you do any of these, during the Battle Phase this turn, each time an opponent's card effect resolves, this card gains 1000 ATK until the end of the Battle Phase, also, it can make a second attack during each Battle Phase this turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -1211,6 +1291,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/92389_200w.jpg",
         Name: "Stellarknight Delteros",
+        Detail: "3 Level 4 monsters While this card has Xyz Material, your opponent cannot activate cards or effects when you Normal or Special Summon a monster(s). Once per turn: You can detach 1 Xyz Material from this card, then target 1 card on the field; destroy it. If this card is sent from the field to the Graveyard: You can Special Summon 1 tellarknight monster from your hand or Deck.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "DUEA",
@@ -1226,6 +1307,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136857_200w.jpg",
         Name: "Evilswarm Exciton Knight",
+        Detail: "2 Level 4 monsters Once per chain, during your Main Phase or your opponent's Battle Phase, if your opponent has more total cards in their hand and field than you do (Quick Effect): You can detach 1 material from this card; destroy all other cards on the field, also your opponent takes no further damage this turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -1241,6 +1323,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/189391_200w.jpg",
         Name: "Firewall Exceed Dragon",
+        Detail: "2+ Level 4 monsters This Xyz Summoned card gains 500 ATK x the total Link Rating of Link Monsters linked to this card. You can detach 2 materials from this card, then target 1 Link-4 Cyberse Link Monster in your GY; Special Summon it to your field so it points to this card, also you cannot Special Summon other monsters or attack directly for the rest of this turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DANE",
@@ -1256,6 +1339,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/111894_200w.jpg",
         Name: "Number 101: Silent Honor Ark",
+        Detail: "2 Level 4 monsters You can detach 2 Xyz Materials from this card, then target 1 Special Summoned monster your opponent controls in face-up Attack Position; attach it to this card as a face-up Xyz Material. You can only use this effect of Number 101: Silent Honor ARK once per turn. If this face-up card would be destroyed, you can detach 1 Xyz Material from this card instead.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "WIRA",
@@ -1271,6 +1355,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/124749_200w.jpg",
         Name: "Darktellarknight Batlamyus",
+        Detail: "2 Level 4 tellarknight monsters All face-up monsters on the field become DARK. You can detach 1 Xyz Material from this card and discard 1 card; Special Summon from your Extra Deck, 1 LIGHT tellarknight Xyz Monster by using this face-up card you control as the Xyz Material, also you cannot Xyz Summon other monsters for the rest of this turn. (This is treated as an Xyz Summon. Xyz Materials attached to this card also become Xyz Materials on the Summoned monster.) This effect can be activated during either player's turn, if you have 7 or more tellarknight monsters with different names in your Graveyard.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "INOV",
@@ -1286,6 +1371,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/105413_200w.jpg",
         Name: "Stellarknight Constellar Diamond",
+        Detail: "3 or more Level 5 LIGHT monsters During your Main Phase 2, you can also Xyz Summon this card by using a tellarknight Xyz Monster you control as the Xyz Material, except Stellarknight Constellar Diamond. (Xyz Materials attached to that monster also become Xyz Materials on this card.) While this card has Xyz Material, neither player can send cards from the Deck to the Graveyard, and any card that returns from the Graveyard to the hand is banished instead. During either player's turn, when an opponent's DARK monster activates its effect: You can detach 1 Xyz Material from this card; negate that activation, and if you do, destroy it.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "MP15",
@@ -1301,6 +1387,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/181640_200w.jpg",
         Name: "Summon Sorceress",
+        Detail: "2+ monsters with the same Type, except Tokens If this card is Link Summoned: You can Special Summon 1 monster from your hand in Defense Position, to your opponent's zone this card points to. You can target 1 face-up monster this card points to; Special Summon 1 monster from your Deck in Defense Position, with the same Type as that monster, to a zone this card points to, but negate its effects. You can only use this effect of Summon Sorceress once per turn.",
         Rarity: "Super",
         Edition: "Limited",
         Pack: "SOFU",
@@ -1316,6 +1403,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/170685_200w.jpg",
         Name: "Crusadia Equimax",
+        Detail: "2+ Effect Monsters, including a Link Monster Gains ATK equal to the combined original ATK of all monsters this card points to. Monsters this card points to cannot attack. Once per turn (Quick Effect): You can Tribute 1 Crusadia or World Legacy monster this card points to, then target 1 face-up card your opponent controls; negate its effects until the end of this turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "CYHO",
@@ -1331,6 +1419,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/194650_200w.jpg",
         Name: "Marincess Marbled Rock",
+        Detail: "2+ WATER monsters You can target 1 Marincess card in your GY, except Marincess Marbled Rock; add it to your hand. You can only use this effect of Marincess Marbled Rock once per turn. When an opponent's monster declares an attack: You can send 1 Marincess monster from your hand to the GY; for that battle, monsters cannot be destroyed by battle, also you take no battle damage.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "RIRA",
@@ -1346,6 +1435,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/193636_200w.jpg",
         Name: "Traptrix Sera",
+        Detail: "1 non-Link Traptrix monster This Link Summoned card is unaffected by Trap effects. You can only use each of the following effects of Traptrix Sera once per turn, and not during the Damage Step. ● If a Normal Trap Card is activated: You can Special Summon 1 Traptrix monster from your Deck, with a different name than the cards you control. ● If your other Traptrix monster's effect is activated: You can Set 1 Hole Normal Trap directly from your Deck.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLHR",
@@ -1361,6 +1451,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/158156_200w.jpg",
         Name: "Qliphort Genius",
+        Detail: "2 Machine monsters This Link Summoned card is unaffected by Spell/Trap effects and the activated effects from other Link Monsters. Once per turn: You can target 1 face-up card on each player's field, except this card; both face-up cards have their effects negated until the end of this turn. When 2 monsters are Special Summoned at the same time to the zones this card points to: You can add 1 Level 5 or higher Machine monster from your Deck to your hand.",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "EXFO",
@@ -1376,6 +1467,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/174829_200w.jpg",
         Name: "Saryuja Skull Dread",
+        Detail: "2+ monsters with different names This card gains effects based on the number of monsters used for its Link Summon. ● 2+: If a monster(s) is Normal or Special Summoned to a zone this card points to: That monster(s) gains 300 ATK/DEF. ● 3+: Once per turn: You can Special Summon 1 monster from your hand. ● 4: When this card is Link Summoned: You can draw 4 cards, then place 3 cards from your hand on the bottom of the Deck in any order.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP18",
@@ -1391,6 +1483,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/72471_200w.jpg",
         Name: "Charge of the Light Brigade",
+        Detail: "Send the top 3 cards of your Deck to the Graveyard; add 1 Level 4 or lower Lightsworn monster from your Deck to your hand.",
         Rarity: "Super",
         Edition: "Limited",
         Pack: "SOVR",
@@ -1406,6 +1499,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/96964_200w.jpg",
         Name: "The Grand Spellbook Tower",
+        Detail: "Once per turn, during your Standby Phase, if you have a Spellcaster-Type monster on your side of the field or in your Graveyard: You can place 1 Spellbook Spell Card from your Graveyard on the bottom of your Deck, except The Grand Spellbook Tower, then draw 1 card. When this card in your possession is destroyed by your opponent's card and sent to your Graveyard: You can Special Summon 1 Spellcaster-Type monster from your hand or Deck whose Level is less than or equal to the number of Spellbook Spell Cards in your Graveyard.",
         Rarity: "Gold",
         Edition: "1st Edition",
         Pack: "PGL2",
@@ -1421,6 +1515,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/24660_200w.jpg",
         Name: "D.D. Designator",
+        Detail: "Declare 1 card name. Look at your opponent's hand, and if they have the declared card in their hand, remove that 1 card from play. If they do not have the declared card in their hand, remove 1 random card in your hand from play.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "DR2",
@@ -1436,6 +1531,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136864_200w.jpg",
         Name: "Spellbook of Secrets",
+        Detail: "Add 1 Spellbook card from your Deck to your hand, except Spellbook of Secrets. You can only activate 1 Spellbook of Secrets per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -1451,6 +1547,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136817_200w.jpg",
         Name: "Double Evolution Pill",
+        Detail: "Banish 1 Dinosaur monster and 1 non-Dinosaur monster from your hand and/or GY; Special Summon 1 Level 7 or higher Dinosaur monster from your hand or Deck, ignoring its Summoning conditions. You can only activate 1 Double Evolution Pill per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -1466,6 +1563,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/127321_200w.jpg",
         Name: "That Grass Looks Greener",
+        Detail: "If you have more cards in your Deck than your opponent does: Send cards from the top of your Deck to the Graveyard so you have the same number of cards in the Deck as your opponent.",
         Rarity: "Secret",
         Edition: "Unlimited",
         Pack: "RATE",
@@ -1481,6 +1579,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/188934_200w.jpg",
         Name: "Orcustrated Babel",
+        Detail: "You can activate the effects of Orcust monsters in your GY, or of Link Monsters you control with Orcust in their original names, as Quick Effects. During your Main Phase, if this card is in your GY, except the turn it was sent to the GY: You can send 1 card from your hand to the GY; add this card to your hand.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "OP10",
@@ -1496,6 +1595,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/66945_200w.jpg",
         Name: "Machine Duplication",
+        Detail: "Target 1 Machine-Type monster you control with 500 or less ATK; Special Summon up to 2 monsters from your Deck with the same name as that monster.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "LCYW",
@@ -1511,6 +1611,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/106051_200w.jpg",
         Name: "Emergency Teleport",
+        Detail: "Special Summon 1 Level 3 or lower Psychic-Type monster from your hand or Deck, but banish it during the End Phase of this turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "HSRD",
@@ -1526,6 +1627,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136863_200w.jpg",
         Name: "Into the Void",
+        Detail: "If you have 3 or more cards in your hand: Draw 1 card, and if you do, during the End Phase of this turn, discard your entire hand.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -1541,6 +1643,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/93939_200w.jpg",
         Name: "Magic Planter",
+        Detail: "Send 1 face-up Continuous Trap you control to the GY; draw 2 cards.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "LC5D",
@@ -1556,6 +1659,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/174842_200w.jpg",
         Name: "Spellbook of Knowledge",
+        Detail: "Send to the GY either 1 Spellcaster monster you control, or 1 other Spellbook card from your hand or face-up field, except Spellbook of Knowledge, and if you do, draw 2 cards. You can only activate 1 Spellbook of Knowledge per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "MP18",
@@ -1571,6 +1675,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/139235_200w.jpg",
         Name: "Spellbook of Knowledge",
+        Detail: "Send to the GY either 1 Spellcaster monster you control, or 1 other Spellbook card from your hand or face-up field, except Spellbook of Knowledge, and if you do, draw 2 cards. You can only activate 1 Spellbook of Knowledge per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "COTD",
@@ -1586,6 +1691,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122969_200w.jpg",
         Name: "Silver's Cry",
+        Detail: "Target 1 Dragon Normal Monster in your GY; Special Summon that target. You can only activate 1 Silver's Cry per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DPRP",
@@ -1601,6 +1707,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/58831_200w.jpg",
         Name: "Ectoplasmer",
+        Detail: "Once per turn, during each player's End Phase: The turn player must Tribute 1 face-up monster, and if they do, inflict damage to their opponent equal to half the original ATK of the Tributed monster.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "SOD",
@@ -1616,6 +1723,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/92403_200w.jpg",
         Name: "Stellarnova Alpha",
+        Detail: "When a Spell/Trap Card, or monster effect, is activated: Send 1 face-up tellarknight monster you control to the Graveyard; negate the activation, and if you do, destroy that card, then draw 1 card.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DUEA",
@@ -1631,6 +1739,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/57251_200w.jpg",
         Name: "Solemn Warning",
+        Detail: "When a monster(s) would be Summoned, OR when a Spell/Trap Card, or monster effect, is activated that includes an effect that Special Summons a monster(s): Pay 2000 LP; negate the Summon or activation, and if you do, destroy that card.",
         Rarity: "Super",
         Edition: "Limited",
         Pack: "CT08",
@@ -1646,6 +1755,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122528_200w.jpg",
         Name: "Solemn Strike",
+        Detail: "When a monster(s) would be Special Summoned, OR a monster effect is activated: Pay 1500 LP; negate the Summon or activation, and if you do, destroy that card.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP16",
@@ -1661,6 +1771,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/107713_200w.jpg",
         Name: "Blazing Mirror Force",
+        Detail: "When an opponent's monster declares an attack: Destroy as many Attack Position monsters your opponent controls as possible, and if you do, take damage equal to half the combined original ATK of those destroyed monsters, then inflict damage to your opponent equal to the damage you took.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "DOCS",
@@ -1676,6 +1787,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/174415_200w.jpg",
         Name: "Waking the Dragon",
+        Detail: "If this Set card in its owner's control has left the field because of an opponent's card effect, and is now in your GY or banished: You can Special Summon 1 monster from your Deck or Extra Deck.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "OP08",
@@ -1691,6 +1803,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/102495_200w.jpg",
         Name: "Storming Mirror Force",
+        Detail: "When an opponent's monster declares an attack: Return all your opponent's Attack Position monsters to the hand.",
         Rarity: "Secret",
         Edition: "Unlimited",
         Pack: "CORE",
@@ -1706,6 +1819,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/185974_200w.jpg",
         Name: "Call of the Haunted (Lost Art)",
+        Detail: "Activate this card by targeting 1 monster in your GY; Special Summon that target in Attack Position. When this card leaves the field, destroy that monster. When that monster is destroyed, destroy this card.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "LART",
@@ -1721,6 +1835,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/22532_200w.jpg",
         Name: "Torrential Tribute",
+        Detail: "When a monster(s) is Summoned: Destroy all monsters on the field.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "LON",
@@ -1736,6 +1851,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/169430_200w.jpg",
         Name: "Torrential Tribute",
+        Detail: "When a monster(s) is Summoned: Destroy all monsters on the field.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLRR",
@@ -1751,6 +1867,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/186992_200w.jpg",
         Name: "Evenly Matched",
+        Detail: "At the end of the Battle Phase, if your opponent controls more cards than you do: You can make your opponent banish cards from their field face-down so they control the same number of cards as you do. If you control no cards, you can activate this card from your hand.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DUPO",
@@ -1766,6 +1883,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/149347_200w.jpg",
         Name: "Tri-Gate Wizard",
+        Detail: "2+ monsters, except Tokens This card gains these effects based on the number of monsters co-linked to this card. ● 1+: If a monster co-linked to this card battles your opponent's monster, any battle damage it inflicts to your opponent is doubled. ● 2+: Once per turn: You can target 1 card on the field; banish it. ● 3: Once per turn, when a card or effect is activated (Quick Effect): You can negate the activation, and if you do, banish that card.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "SDCL",
@@ -1781,6 +1899,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/169425_200w.jpg",
         Name: "Topologic Gumblar Dragon",
+        Detail: "2+ Effect Monsters If another monster is Special Summoned to a zone a Link Monster points to, while this monster is on the field: Discard 1 or 2 random cards, then your opponent discards the same number. If this card is Extra Linked and your opponent has at least 1 card in their hand: You can make your opponent discard 1 or 2 cards (whichever is higher), then, if they have no more cards in their hand, inflict 3000 damage to them. You can only use 1 Topologic Gumblar Dragon effect per turn, and only once that turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLRR",
@@ -1796,6 +1915,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/166352_200w.jpg",
         Name: "Knightmare Goblin",
+        Detail: "2 monsters with different names If this card is Link Summoned: You can discard 1 card; if this card was co-linked when this effect was activated, you can draw 1 card, also, during your Main Phase this turn, you can Normal Summon 1 monster from your hand to your zone this card points to, in addition to your Normal Summon/Set. You can only use this effect of Knightmare Goblin once per turn. Neither player can target your co-linked monsters with card effects.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "FLOD",
@@ -1811,6 +1931,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/149346_200w.jpg",
         Name: "Encode Talker",
+        Detail: "2+ Cyberse monsters Once per turn, before damage calculation, if your monster this card points to battles an opponent's monster with higher ATK than it: You can make that monster unable to be destroyed by that battle, also you take no battle damage from that battle. After that damage calculation, have this card or 1 monster it points to gain ATK equal to the ATK of that battled opponent's monster, until the end of this turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "SDCL",
@@ -1826,6 +1947,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/158103_200w.jpg",
         Name: "Excode Talker",
+        Detail: "2+ Cyberse monsters When this card is Link Summoned: You can choose unused Main Monster Zones equal to the number of monsters currently in the Extra Monster Zones; those zones cannot be used while this monster is face-up on the field. You can only use this effect of Excode Talker once per turn. Monsters this card points to gain 500 ATK, also they cannot be destroyed by card effects.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "EXFO",
@@ -1841,6 +1963,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/148337_200w.jpg",
         Name: "Akashic Magician",
+        Detail: "2 monsters with the same Type, except Tokens You can only Link Summon Akashic Magician(s) once per turn. If this card is Link Summoned: Return all monsters this card points to to the hand. Once per turn: You can declare 1 card name; excavate cards from the top of your Deck, equal to the total Link Rating of the Link Monsters co-linked to this card, then if you excavated any copies of the declared card, add them to your hand, also send the remaining cards to the GY.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "CIBR",
@@ -1856,6 +1979,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/170661_200w.jpg",
         Name: "Cyberse Witch",
+        Detail: "2 Cyberse monsters If a monster is Special Summoned to a zone this card points to (except during the Damage Step): You can banish 1 Spell from your GY; add 1 Cyberse Ritual Monster and 1 Cynet Ritual from your Deck to your hand. During your Main Phase, if this effect was activated this turn: You can target 1 Level 4 or lower Cyberse monster in your GY; Special Summon it. You can only use each effect of Cyberse Witch once per turn.",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "CYHO",
@@ -1871,6 +1995,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177180_200w.jpg",
         Name: "Abyss Actor - Mellow Madonna",
+        Detail: "Pendulum Effect: You can pay 1000 LP; add 1 Abyss Actor Pendulum Monster from your Deck to your hand, except Abyss Actor - Mellow Madonna, also you cannot Special Summon monsters for the rest of this turn, except Abyss Actor Pendulum Monsters (even if this card leaves the field). You can only use this effect of Abyss Actor - Mellow Madonna once per turn. Monster Effect: Gains 100 ATK for each Abyss Script Spell in your GY. You can only use each of the following effects of Abyss Actor - Mellow Madonna once per turn. ● When a Pendulum Monster you control is destroyed by battle: You can Special Summon this card from your hand. ● If an Abyss Script Spell Card or effect is activated: You can Special Summon 1 Level 4 or lower Abyss Actor Pendulum Monster from your Deck, but return it to the hand during the End Phase.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -1886,6 +2011,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/38505_200w.jpg",
         Name: "Dark End Dragon",
+        Detail: "1 Tuner + 1 or more non-Tuner DARK monsters Once per turn: You can target 1 monster your opponent controls; this card loses 500 ATK and DEF, and you send that target to the Graveyard.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "JUMP",
@@ -1901,6 +2027,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136851_200w.jpg",
         Name: "Crystal Wing Synchro Dragon",
+        Detail: "1 Tuner + 1+ non-Tuner Synchro Monsters Once per turn, when another monster's effect is activated (Quick Effect): You can negate the activation, and if you do, destroy that monster, and if you do that, this card gains ATK equal to the destroyed monster's original ATK until the end of this turn. If this card battles an opponent's Level 5 or higher monster, during damage calculation: This card gains ATK equal to the current ATK of the opponent's monster it is battling during that damage calculation only.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -1916,6 +2043,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/194652_200w.jpg",
         Name: "Shaman of the Tenyi",
+        Detail: "2 Wyrm monsters You can discard 1 card, then target 1 Wyrm monster in your GY; Special Summon it, also, for the rest of this turn, you cannot activate the effects of monsters Special Summoned from the Extra Deck, except Tenyi monsters. When an attack is declared involving your face-up non-Effect Monster: You can target 1 card your opponent controls; destroy it. You can only use each effect of Shaman of the Tenyi once per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "RIRA",
@@ -1931,6 +2059,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/123612_200w.jpg",
         Name: "Dark Burning Magic",
+        Detail: "If you control monsters whose original names are Dark Magician and Dark Magician Girl: Destroy all cards your opponent controls.",
         Rarity: "Secret",
         Edition: "Limited",
         Pack: "LDK2",
@@ -1946,6 +2075,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/194646_200w.jpg",
         Name: "Fortune Lady Every",
+        Detail: "1 Tuner + 1+ non-Tuner Spellcaster monsters This card's ATK/DEF become its Level x 400. Once per turn, during your Standby Phase: Increase this card's Level by 1 (max. 12), then, you can banish 1 face-up monster your opponent controls. During your opponent's End Phase, if this card is in your GY: You can banish 1 other Spellcaster monster from your GY; Special Summon this card. You can only use this effect of Fortune Lady Every once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "RIRA",
@@ -1961,6 +2091,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/193675_200w.jpg",
         Name: "Summon Limit",
+        Detail: "Neither player can Summon more than two times per turn. (Negated Summons count toward this limit. Negated cards/effects that would Summon do not count.)",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLHR",
@@ -1976,6 +2107,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/174832_200w.jpg",
         Name: "Heavymetalfoes Electrumite",
+        Detail: "2 Pendulum Monsters If this card is Link Summoned: You can add 1 Pendulum Monster from your Deck to your Extra Deck face-up. Once per turn: You can target 1 other face-up card you control; destroy it, then add 1 face-up Pendulum Monster from your Extra Deck to your hand. If a card(s) in your Pendulum Zone leaves the field: Draw 1 card. You can only use this effect of Heavymetalfoes Electrumite once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "MP18",
@@ -1991,6 +2123,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/81647_200w.jpg",
         Name: "Dragonecro Nethersoul Dragon",
+        Detail: "2 Zombie-Type monsters Must first be Fusion Summoned. Monsters cannot be destroyed by battle with this card. At the end of the Damage Step, if this card battled a monster that has an original Level: That monster's ATK becomes 0, also, if that monster is still face-up on the field, Special Summon 1 Dark Soul Token (Zombie-Type/DARK/Level ?/ATK ?/DEF 0). (When Summoned, its Level and ATK become equal to the original Level and ATK of that monster.) You can only control 1 Dragonecro Nethersoul Dragon.",
         Rarity: "Gold",
         Edition: "1st Edition",
         Pack: "PGLD",
@@ -2006,6 +2139,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/166354_200w.jpg",
         Name: "Knightmare Phoenix",
+        Detail: "2 monsters with different names If this card is Link Summoned: You can discard 1 card, then target 1 Spell/Trap your opponent controls; destroy it, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of Knightmare Phoenix once per turn. Co-linked monsters you control cannot be destroyed by battle.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "FLOD",
@@ -2021,6 +2155,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/33688_200w.jpg",
         Name: "Fortune's Future",
+        Detail: "Select 1 of your removed from play Fortune Lady monsters and return it to the Graveyard. Then draw 2 cards.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "SOVR",
@@ -2036,6 +2171,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/158091_200w.jpg",
         Name: "Mythical Beast Jackal King",
+        Detail: "Pendulum Effect: If you have no cards in your other Pendulum Zone: You can destroy this card, and if you do, Special Summon 1 face-up Mythical Beast Pendulum Monster from your Extra Deck, except Mythical Beast Jackal King. You can only use this effect of Mythical Beast Jackal King once per turn. Monster Effect: Each time a Spell is activated, place 2 Spell Counters on this card when that Spell resolves. Once per turn, when an opponent activates a monster effect (Quick Effect): You can remove 2 Spell Counters from your field; negate the activation, and if you do, destroy that card.",
         Rarity: "Ultra",
         Edition: "Unlimited",
         Pack: "EXFO",
@@ -2051,6 +2187,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/0_200w.jpg",
         Name: "Micro Coder",
+        Detail: "If a Cyberse monster you control would be used as Link Material for a Code Talker monster, this card in your hand can also be used as material. If this card is sent from the hand or field to the GY as material for the Link Summon of a Code Talker monster: You can either add 1 Cynet Spell/Trap from your Deck to your hand, or, if this card on the field was used as material, you can add 1 Level 4 Cyberse monster instead. You can only use each effect of Micro Coder once per turn.",
         Rarity: "Ultra",
         Edition: "PROMO",
         Pack: "LOD2",
@@ -2066,6 +2203,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/35072_200w.jpg",
         Name: "XYZ-Dragon Cannon",
+        Detail: "X-Head Cannon + Y-Dragon Head + Z-Metal Tank Must first be Special Summoned (from your Extra Deck) by banishing the above cards you control. (You do not use Polymerization.) Cannot be Special Summoned from the GY. You can discard 1 card, then target 1 card your opponent controls; destroy that target.",
         Rarity: "Super",
         Edition: "Unlimited",
         Pack: "DPKB",
@@ -2081,6 +2219,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/35054_200w.jpg",
         Name: "X-Head Cannon",
+        Detail: "A monster with a mighty cannon barrel, it is able to integrate its attacks. It attacks in many ways by combining and separating with other monsters.",
         Rarity: "Common",
         Edition: "Unlimited",
         Pack: "DPKB",
@@ -2096,6 +2235,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125272_200w.jpg",
         Name: "Abyss Actor - Evil Heel",
+        Detail: "Pendulum Effect: Once per turn: You can Tribute 1 Abyss Actor monster, then target 1 face-up monster your opponent controls; it loses ATK equal to the original ATK of the Tributed monster, until the end of this turn (even if this card leaves the field). Monster Effect: If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; it loses 1000 ATK for each Abyss Actor monster you currently control, until the end of this turn. When this card destroys an opponent's monster by battle: You can target 1 Abyss Script Spell Card in your Graveyard; Set that card.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2111,6 +2251,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177184_200w.jpg",
         Name: "Abyss Actor - Superstar",
+        Detail: "Pendulum Effect: Once per turn: You can Tribute 1 Abyss Actor monster, then target 1 Abyss Script Spell in your GY; add it to your hand. Monster Effect: When Normal or Special Summoned, your opponent's Spell/Traps and effects cannot be activated. Once per turn: You can Set 1 Abyss Script Spell directly from your Deck, but it is sent to the GY during the End Phase.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2126,6 +2267,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177180_200w.jpg",
         Name: "Abyss Actor - Mellow Madonna",
+        Detail: "Pendulum Effect: You can pay 1000 LP; add 1 Abyss Actor Pendulum Monster from your Deck to your hand, except Abyss Actor - Mellow Madonna, also you cannot Special Summon monsters for the rest of this turn, except Abyss Actor Pendulum Monsters (even if this card leaves the field). You can only use this effect of Abyss Actor - Mellow Madonna once per turn. Monster Effect: Gains 100 ATK for each Abyss Script Spell in your GY. You can only use each of the following effects of Abyss Actor - Mellow Madonna once per turn. ● When a Pendulum Monster you control is destroyed by battle: You can Special Summon this card from your hand. ● If an Abyss Script Spell Card or effect is activated: You can Special Summon 1 Level 4 or lower Abyss Actor Pendulum Monster from your Deck, but return it to the hand during the End Phase.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2141,6 +2283,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125275_200w.jpg",
         Name: "Abyss Actor - Sassy Rookie",
+        Detail: "Pendulum Effect: If an Abyss Actor monster(s) you control would be destroyed by battle or an opponent's card effect, you can destroy this card instead. Monster Effect: The first time this card would be destroyed by battle or card effect each turn, it is not destroyed. If this card is destroyed by battle, or if this card in its owner's Monster Zone is destroyed by an opponent's card effect: You can Special Summon 1 Level 4 or lower Abyss Actor monster from your Deck, except Abyss Actor - Sassy Rookie. If this card in the Pendulum Zone is destroyed: You can target 1 Level 4 or lower monster your opponent controls; destroy it.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2156,6 +2299,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177181_200w.jpg",
         Name: "Abyss Actor - Comic Relief",
+        Detail: "Pendulum Effect: You can target 1 Abyss Actor Pendulum Monster you control and 1 monster your opponent controls; switch control of both monsters, then destroy this card. You can only use this effect of Abyss Actor - Comic Relief once per turn. Monster Effect: You take no battle damage from attacks involving this card. Once per turn, during your Standby Phase: Give control of this card to your opponent. Once per turn, if control of this face-up card changes: Activate this effect; the owner of this card can destroy 1 Set Abyss Script Spell in their Spell & Trap Zone.",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2171,6 +2315,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177186_200w.jpg",
         Name: "Abyss Actor - Trendy Understudy",
+        Detail: "Pendulum Effect: When you Pendulum Summon a monster: You can add 1 face-up Level 1 or 8 Abyss Actor Pendulum Monster from your Extra Deck to your hand. Monster Effect: If you have 2 Abyss Actor cards in your Pendulum Zones: You can Tribute this card; Special Summon 1 Level 1 or 8 Abyss Actor Pendulum Monster from your hand or face-up from your Extra Deck. You can only use this effect of Abyss Actor - Trendy Understudy once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2186,6 +2331,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/139269_200w.jpg",
         Name: "Abyss Actor - Trendy Understudy",
+        Detail: "Pendulum Effect: When you Pendulum Summon a monster: You can add 1 face-up Level 1 or 8 Abyss Actor Pendulum Monster from your Extra Deck to your hand. Monster Effect: If you have 2 Abyss Actor cards in your Pendulum Zones: You can Tribute this card; Special Summon 1 Level 1 or 8 Abyss Actor Pendulum Monster from your hand or face-up from your Extra Deck. You can only use this effect of Abyss Actor - Trendy Understudy once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2201,6 +2347,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125273_200w.jpg",
         Name: "Abyss Actor - Funky Comedian",
+        Detail: "Pendulum Effect: Once per turn: You can Tribute 1 Abyss Actor monster, then target 1 Abyss Actor monster you control; it gains ATK equal to the original ATK of the Tributed monster, until the end of this turn (even if this card leaves the field). Monster Effect: If this card is Normal or Special Summoned: You can make this card gain 300 ATK for each Abyss Actor monster you currently control, until the end of this turn. You can target 1 other Abyss Actor monster you control; it gains ATK equal to this card's current ATK, until the end of this turn. This card cannot attack the turn this effect is activated. You can only use this effect of Abyss Actor - Funky Comedian once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2216,6 +2363,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125282_200w.jpg",
         Name: "Abyss Prop - Wild Wagon",
+        Detail: "The first time each Abyss Actor monster you control would be destroyed by battle each turn, it is not destroyed. Once per turn: You can target 1 Abyss Actor monster you control; your opponent cannot target it with card effects until the end of their turn (even if this card leaves the field). If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can return all cards your opponent controls to the hand.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2231,6 +2379,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177187_200w.jpg",
         Name: "Abyss Script - Opening Ceremony",
+        Detail: "Gain 500 LP for each Abyss Actor monster you control. If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can draw until you have 5 cards in your hand. You can only use each effect of Abyss Script - Opening Ceremony once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2246,6 +2395,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125280_200w.jpg",
         Name: "Abyss Script - Opening Ceremony",
+        Detail: "Gain 500 LP for each Abyss Actor monster you control. If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can draw until you have 5 cards in your hand. You can only use each effect of Abyss Script - Opening Ceremony once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2261,6 +2411,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177183_200w.jpg",
         Name: "Abyss Playhouse - Fantastic Theater",
+        Detail: "You can reveal 1 Abyss Actor Pendulum Monster and 1 Abyss Script Spell in your hand; add 1 Abyss Script Spell from your Deck to your hand with a different name than that revealed Spell. While you control a Pendulum Summoned Abyss Actor Pendulum Monster, any monster effect activated by your opponent becomes Destroy 1 Set Spell/Trap your opponent controls. You can only use each effect of Abyss Playhouse - Fantastic Theater once per turn.",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2276,6 +2427,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125283_200w.jpg",
         Name: "Abyss Script - Rise Of The Abyss King",
+        Detail: "Target face-up cards on the field, up to the number of Attack Position Abyss Actor monsters with different names you control; destroy them. If you control a Level 7 or higher Abyss Actor monster, your opponent cannot activate cards or effects in response to this card's activation. If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can add up to 2 Abyss Actor cards and/or Abyss Script Spells with different names from your Deck to your hand.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2291,6 +2443,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125279_200w.jpg",
         Name: "Abyss Script - Fantasy Magic",
+        Detail: "Target 1 Abyss Actor monster you control; this turn, every monster that battles it, but is not destroyed, returns to the hand at the end of the Damage Step. If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can target 1 card your opponent controls; place it on top of the Deck.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2306,6 +2459,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125281_200w.jpg",
         Name: "Abyss Script - Fire Dragon's Lair",
+        Detail: "Target 1 Abyss Actor monster you control; if it destroys your opponent's monster by battle this turn, your opponent banishes 3 monsters from their Extra Deck (their choice). If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can look at your opponent's Extra Deck, also banish 1 monster from their Extra Deck. You can only use this effect of Abyss Script - Fire Dragon's Lair once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2321,6 +2475,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/136802_200w.jpg",
         Name: "Abyss Script - Abysstainment",
+        Detail: "You can Tribute 1 Abyss Actor monster, then target 1 Abyss Script Spell in your GY; Set it to your field. You can use this effect of Abyss Script - Abysstainment up to twice per turn. If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can Special Summon any number of Abyss Actor Pendulum Monsters from your Deck.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLLR",
@@ -2336,6 +2491,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177182_200w.jpg",
         Name: "Abyss Script - Romantic Terror",
+        Detail: "Return 1 Abyss Actor Pendulum Monster you control to the hand, and if you do, Special Summon from your Extra Deck 1 face-up Abyss Actor Pendulum Monster with a different original name from that monster. If this Set card in its owner's control is destroyed by an opponent's card effect, and you have a face-up Abyss Actor Pendulum Monster in your Extra Deck: You can Set any number of Abyss Script Spells directly from your Deck to your Spell & Trap Zones. You can only activate 1 Abyss Script - Romantic Terror per turn.",
         Rarity: "Rare",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2351,6 +2507,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/125284_200w.jpg",
         Name: "Abyss Actors Back Stage",
+        Detail: "If you have 2 Abyss Actor cards in your Pendulum Zones: Add 2 Abyss Actor Pendulum Monsters with different names from your Deck to your Extra Deck face-up. You can only activate 1 Abyss Actors Back Stage per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "DESO",
@@ -2366,6 +2523,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177188_200w.jpg",
         Name: "Abyss Actors Back Stage",
+        Detail: "If you have 2 Abyss Actor cards in your Pendulum Zones: Add 2 Abyss Actor Pendulum Monsters with different names from your Deck to your Extra Deck face-up. You can only activate 1 Abyss Actors Back Stage per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2381,6 +2539,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/177177_200w.jpg",
         Name: "Abyss Actors' Curtain Call",
+        Detail: "If an Abyss Script Spell Card or effect was activated this turn: Add face-up Abyss Actor Pendulum Monsters from your Extra Deck to your hand, up to the number of Abyss Script Spells in your GY. Then you can Special Summon Abyss Actor Pendulum Monsters from your hand with different names, up to the number of monsters added to the hand by this effect. You cannot Special Summon monsters for the rest of this turn, except Abyss Actor Pendulum Monsters. You can only activate 1 Abyss Actors' Curtain Call per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "LED3",
@@ -2396,6 +2555,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/158111_200w.jpg",
         Name: "Altergeist Hexstia",
+        Detail: "2 Altergeist monsters Gains ATK equal to the original ATK of each Altergeist monsters it points to. When a Spell/Trap Card or effect is activated (Quick Effect): You can Tribute 1 Altergeist monster this card points to; negate the activation, and if you do, destroy that card. If this card is sent from the field to the GY: You can add 1 Altegeist card from your Deck to your hand. You can only use this effect of Altergeist Hexstia once per turn.",
         Rarity: "Super",
         Edition: "1st Edition",
         Pack: "EXFO",
@@ -2411,6 +2571,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/166350_200w.jpg",
         Name: "Altergeist Kidolga",
+        Detail: "2 Altergeist monsters When another Altergeist monster inflicts battle damage to your opponent: You can target 1 monster in their GY; Special Summon it to your zone this card points to, but each turn, it cannot attack unless this card has already declared an attack that turn. If this card is destroyed by battle: You can target 1 Altergeist card in your GY; add it to your hand.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "FLOD",
@@ -2426,6 +2587,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/189388_200w.jpg",
         Name: "Altergeist Dragvirion",
+        Detail: "1 Tuner + 1+ non-Tuner monsters When a Special Summoned monster your opponent controls declares an attack: You can return 1 Altergeist monster you control to the hand; negate that attack. If this card is Tributed and sent to the GY: You can Special Summon it. You can only use each effect of Altergeist Dragvirion once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "DANE",
@@ -2441,6 +2603,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/148296_200w.jpg",
         Name: "Altergeist Kunquery",
+        Detail: "When an opponent's monster declares an attack, if you control an Altergeist card: You can Special Summon this card from your hand, and if you do, negate that attack. If this card is Special Summoned: You can target 1 face-up card your opponent controls; negate the effects of that card while it and this monster are face-up on the field.",
         Rarity: "Common",
         Edition: "Unlimited",
         Pack: "CIBR",
@@ -2456,6 +2619,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/148293_200w.jpg",
         Name: "Altergeist Marionetter",
+        Detail: "When this card is Normal Summoned: You can Set 1 Altergeist Trap directly from your Deck to your Spell & Trap Zone. You can target 1 Altergeist card you control and 1 Altergeist monster in your GY; send that card on the field to the GY, and if you do, Special Summon that other monster from your GY. You can only use this effect of Altergeist Marionetter once per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "CIBR",
@@ -2471,6 +2635,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/189359_200w.jpg",
         Name: "Altergeist Fifinellag",
+        Detail: "Monsters your opponent controls cannot target Altergeist monsters you control for attacks, except Altergeist Fifinellag, also your opponent cannot target Altergeist monsters you control with card effects, except Altergeist Fifinellag.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "DANE",
@@ -2486,6 +2651,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/164030_200w.jpg",
         Name: "Altergeist Silquitous",
+        Detail: "(Quick Effect): You can return 1 other Altergeist card you control to the hand, then target 1 card your opponent controls; return it to the hand. If this card is sent from the field to the GY: You can target 1 Altergeist Trap in your GY; add that card to your hand. You can only use each effect of Altergeist Silquitous once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "SP18",
@@ -2501,6 +2667,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/166323_200w.jpg",
         Name: "Altergeist Pixiel",
+        Detail: "You can Tribute this card; excavate the top 3 cards of your Deck, add 1 excavated Altergeist card to your hand, also send the rest to the GY. You can only use this effect of Altergeist Pixiel once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "FLOD",
@@ -2516,6 +2683,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/169456_200w.jpg",
         Name: "Altergeist Manifestation",
+        Detail: "Target 1 Altergeist monster in your GY; Special Summon it in Attack Position, and if you do, equip it with this card. When this card leaves the field, destroy that monster. You can banish this card from your GY, then target 1 Altergeist Trap in your GY; add it to your hand. You can only use this effect of Altergeist Manifestation once per turn.",
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "BLRR",
@@ -2531,6 +2699,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/166378_200w.jpg",
         Name: "Altergeist Emulatelf",
+        Detail: "Special Summon this card as an Effect Monster (Spellcaster/LIGHT/Level 4/ATK 1400/DEF 1800). (This card is also still a Trap.) If Summoned this way, while it is in the Monster Zone, other Altergeist Traps you control cannot be destroyed by card effects, also neither player can target them with card effects.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "FLOD",
@@ -2546,6 +2715,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/189423_200w.jpg",
         Name: "Altergeist Haunted Rock",
+        Detail: "If this card was Set by the effect of an Altergeist card, you can activate it the turn it was Set. When this card resolves, send 1 Altergeist monster from your hand to the GY. When your opponent activates a Trap Card: You can send 1 Altergeist monster from your hand to the GY; negate its effect, and if you do, destroy it. You can only use each effect of Altergeist Haunted Rock once per turn.",
         Rarity: "Common",
         Edition: "1st Edition",
         Pack: "DANE",
@@ -2894,7 +3064,7 @@ export class DataService {
         Rarity: "Ultra",
         Edition: "1st Edition",
         Pack: "DUOV",
-        Owned: 1,
+        Owned: 2,
         OPrice: 5,
         PPrice: 0.18,
         CPrice: 0.18,
@@ -4013,11 +4183,74 @@ export class DataService {
         Change: 0,
         Location: "Trunk",
       },
+      {
+        Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/200830_200w.jpg",
+        Name: "Primineral Kongreat",
+        Rarity: "Super",
+        Edition: "1st Edition",
+        Pack: "CHIM",
+        Owned: 1,
+        OPrice: 5,
+        PPrice: 0.12,
+        CPrice: 0.12,
+        Projection: (6.30 - 6.30),
+        URL: "chaos-impact/primineral%20kongreat",
+        Change: 0,
+        Location: "Trunk",
+      },
+      {
+        Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/200899_200w.jpg",
+        Name: "Action Magic - Full Turn",
+        Rarity: "Common",
+        Edition: "1st Edition",
+        Pack: "CHIM",
+        Owned: 1,
+        OPrice: 5,
+        PPrice: 0.10,
+        CPrice: 0.10,
+        Projection: (6.30 - 6.30),
+        URL: "chaos-impact/action%20magic%20full%20turn",
+        Change: 0,
+        Location: "Trunk",
+      },
+      {
+        Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/200841_200w.jpg",
+        Name: "Draco Berserker Of The Tenyi",
+        Rarity: "Ultra",
+        Edition: "1st Edition",
+        Pack: "CHIM",
+        Owned: 1,
+        OPrice: 5,
+        PPrice: 8.15,
+        CPrice: 8.15,
+        Projection: (6.30 - 6.30),
+        URL: "chaos-impact/draco%20berserker%20of%20the%20tenyi",
+        Change: 0,
+        Location: "Trunk",
+      },
+      {
+        Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/194635_200w.jpg",
+        Name: "Avida, Rebuilder Of Worlds",
+        Rarity: "Super",
+        Edition: "1st Edition",
+        Pack: "RIRA",
+        Owned: 1,
+        OPrice: 5,
+        PPrice: 0.13,
+        CPrice: 0.13,
+        Projection: (6.30 - 6.30),
+        URL: "rising-rampage/avida%20rebuilder%20of%20worlds",
+        Change: 0,
+        Location: "Trunk",
+      },
     ];
   }
 
   filterYugiohDatabase(searchTerm) {
     return this.yugiohDatabase.filter(item => {
+      if (item.Detail.toLowerCase().indexOf(searchTerm.toLowerCase())) {
+        return item.Name.toLowerCase();
+      }
       return item.Name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
     });
   }
