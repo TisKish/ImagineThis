@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { YgoCardFormComponent } from './ygo-card-form/ygo-card-form.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,9 @@ const routes: Routes = [
   {
     path: 'yugioh',
     loadChildren: () => import('./yugioh/yugioh.module').then(m => m.YugiohPageModule)
-  }
+  },
+  {
+    path: 'ygo-card-form', component: YgoCardFormComponent  }
 ];
 
 @NgModule({

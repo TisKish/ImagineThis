@@ -59,7 +59,7 @@ export class DataService {
       {
         Icon: "https://images-na.ssl-images-amazon.com/images/I/51FmkkkhZ7L.jpg",
         Name: "Earthbound Immortal Uru",
-        Detail: "There can only be 1 "Earthbound Immortal" monster on the field. If there is no face-up Field Spell Card on the field, destroy this card. Your opponent cannot target this card for attacks. This card can attack your opponent directly. Once per turn: You can Tribute 1 other monster, then target 1 face-up monster your opponent controls; take control of that target, until the End Phase.",
+        Detail: "There can only be 1 'Earthbound Immortal' monster on the field. If there is no face-up Field Spell Card on the field, destroy this card. Your opponent cannot target this card for attacks. This card can attack your opponent directly. Once per turn: You can Tribute 1 other monster, then target 1 face-up monster your opponent controls; take control of that target, until the End Phase.",
         Rarity: "Ultimate",
         Edition: "Unlimited",
         Pack: "SOVR",
@@ -75,7 +75,7 @@ export class DataService {
       {
         Icon: "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1064498.jpg",
         Name: "Yazi, Evil of the Yang Zing",
-        Detail: "1 Tuner + 1 or more non-Tuner monsters Cannot be targeted by an opponent's card effects. You can only use each of these effects of Yazi, Evil of the Yang Zing once per turn. ● You can target 1 "Yang Zing" monster you control and 1 card your opponent controls; destroy them. ● When this card you control is destroyed by battle or card effect and sent to your Graveyard: You can Special Summon 1 Wyrm-Type monster from your Deck in Defense Position.",
+        Detail: "1 Tuner + 1 or more non-Tuner monsters Cannot be targeted by an opponent's card effects. You can only use each of these effects of Yazi, Evil of the Yang Zing once per turn. ● You can target 1 Yang Zing monster you control and 1 card your opponent controls; destroy them. ● When this card you control is destroyed by battle or card effect and sent to your Graveyard: You can Special Summon 1 Wyrm-Type monster from your Deck in Defense Position.",
         Rarity: "Ultimate",
         Edition: "1st Edition",
         Pack: "NECH",
@@ -635,7 +635,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/122293_200w.jpg",
         Name: "Blue-Eyes White Dragon",
-        Detail: "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale."
+        Detail: "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.",
         Rarity: "Ultra",
         Edition: "Limited",
         Pack: "CT13",
@@ -715,7 +715,7 @@ export class DataService {
       {
         Icon: "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/193597_200w.jpg",
         Name: "Vision Hero Faris",
-        Detail: "You can discard 1 other "HERO" monster; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can place 1 Vision HERO monster from your Deck, except Vision HERO Faris, in your Spell & Trap Zone as a face-up Continuous Trap, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except "HERO" monsters. You can only use each effect of Vision HERO Faris once per turn.",
+        Detail: "You can discard 1 other HERO monster; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can place 1 Vision HERO monster from your Deck, except Vision HERO Faris, in your Spell & Trap Zone as a face-up Continuous Trap, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except HERO monsters. You can only use each effect of Vision HERO Faris once per turn.",
         Rarity: "Secret",
         Edition: "1st Edition",
         Pack: "BLHR",

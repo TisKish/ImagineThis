@@ -22,6 +22,7 @@
     <ion-card-content>
       <p>Options:</p>
       <ion-button (click)='fullUpdate()'>Update Prices</ion-button>
+      <a routerLink="/ygo-card-form" class="btn btn-info">Add New Card</a>
 
       <p>Sort by:</p>
       <ion-button (click)='nameSortAsc()'>Name Asc</ion-button>
@@ -49,7 +50,7 @@
           <ion-spinner></ion-spinner>
         </div>
 
-    <ion-item *ngFor="let detail of yugiohDatabase; let i = index">
+    <ion-item *ngFor="let detail of ygoCards; let i = index">
 
 
       <ion-list id="masterList">
@@ -62,19 +63,20 @@
             <div class="listItems">
               <table id="binderList" class="sortable" border="1"
                 style="text-align:center; position: relative; padding: 3px; border-color: gray; border-inline-color: gray;">
-                <tbody>
+                <thead>
                   <tr class="header" style="background-color: gray">
-                    <th style="padding: 5px">Rarity</th>
-                    <th style="padding: 5px">Edition</th>
-                    <th style="padding: 5px">Pack</th>
-                    <th style="padding: 5px">Owned</th>
-                    <th style="padding: 5px">Original Price</th>
-                    <th style="padding: 5px">Previous Price</th>
-                    <th style="padding: 5px">Current Price</th>
-                    <th style="padding: 5px">Projection</th>
-                    <th style="padding: 5px">Change</th>
-
+                    <th scope="col" style="padding: 5px">Rarity</th>
+                    <th scope="col" style="padding: 5px">Edition</th>
+                    <th scope="col" style="padding: 5px">Pack</th>
+                    <th scope="col" style="padding: 5px">Owned</th>
+                    <th scope="col" style="padding: 5px">Original Price</th>
+                    <th scope="col" style="padding: 5px">Previous Price</th>
+                    <th scope="col" style="padding: 5px">Current Price</th>
+                    <th scope="col" style="padding: 5px">Projection</th>
+                    <th scope="col" style="padding: 5px">Change</th>
                   </tr>
+                  </thead>
+                  <tbody>
                   <tr>
                     <td style="padding: 5px">{{detail.Rarity}}</td>
                     <td style="padding: 5px">{{detail.Edition}}</td>

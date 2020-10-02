@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
-import { Card } from "./card-database";
+import { YgoCard } from "../ygo-card";
 import { Router } from "@angular/router";
-import { DataService } from "../services/data.service";
+import { YgoServiceService } from "../ygo-service.service";
 import { FormControl } from "@angular/forms";
 
 @Component({
@@ -11,14 +11,15 @@ import { FormControl } from "@angular/forms";
 })
 export class YugiohPage implements OnInit {
   private selectedItem: any;
-  thisCard = Card;
+  // thisCard = Card;
+  ygoCards: YgoCard[];
   currentSort: any;
   public searchTerm: string = "";
   public yugiohDatabase: any;
   searching: any = false;
   searchControl: FormControl;
 
-  constructor(private router: Router, private dataService: DataService) {
+  constructor(private router: Router, private dataService: YgoServiceService) {
     // for (let i = 0; i < this.thisCard.length+1; i++) {
     //   this.thisCard.push({
     //     title: 'Item ' + i,
@@ -29,6 +30,9 @@ export class YugiohPage implements OnInit {
   }
 
   ngOnInit() {
+    this.dataService.findAll().subscribe(data => {
+      this.ygoCards = data;
+    })
     this.currentSort = "";
     this.setFilteredItems();
     this.changeProjections(this.yugiohDatabase);
@@ -173,6 +177,7 @@ export class YugiohPage implements OnInit {
       this.yugiohDatabase.sort(this.GetSortOrderAsc("Name"))
     );
   }
+
 
   nameSortDesc() {
     this.currentSort = this.GetSortOrderDesc(
