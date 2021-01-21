@@ -15,18 +15,28 @@ export class YgoCardFormComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private ygoService: YgoServiceService) {       
-    this.ygoCard = new YgoCard();
+    private dataService: YgoServiceService) {   
   }
+  Repdata;  
+  valbutton ="Save";  
 
-  onSubmit() {
-    this.ygoService.save(this.ygoCard).subscribe(result => this.gotoYgoList());
-  }
+  onSave = function(card,isValid: boolean) {    
+    card.mode= this.valbutton;  
+     this.dataService.saveCard(card)  
+     .subscribe(data =>  {  alert(data.data);  
+          
+       this.ngOnInit();    
+     }   
+     , error => this.errorMessage = error )  
+       
+   }
 
   gotoYgoList() {
     this.router.navigate(['/ygocards']);
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.dataService.GetCard().subscribe(data =>  this.Repdata = data)
+  }
 
 }

@@ -1,9 +1,9 @@
 var express = require('express');  
 var path = require("path");   
 var bodyParser = require('body-parser');  
-var mongo = require("mongoose");  
+var mongo = require("mongoose");
   
-var db = mongo.connect("mongodb://localhost:27017/AngularCRUD", function(err, response){  
+var db = mongo.connect("mongodb://localhost:27017/ygoCardDatabase", function(err, response){  
    if(err){ console.log( err); }  
    else{ console.log('Connected to ' + db, ' + ', response); }  
 });  
@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended:true}));
    
   
 app.use(function (req, res, next) {        
-     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');    
+     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8100');    
      res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');    
      res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');      
      res.setHeader('Access-Control-Allow-Credentials', true);       
@@ -25,15 +25,27 @@ app.use(function (req, res, next) {
   
  var Schema = mongo.Schema;  
   
-var UsersSchema = new Schema({      
- name: { type: String   },       
- address: { type: String   },   
+var CardsSchema = new Schema({      
+ Name: { type: String   },       
+ Icon: { type: String   },
+ Detail: { type: String   },
+ Rarity: { type: String   },
+ Edition: { type: String   },
+ Pack: { type: String   },
+ Owned: { type: Number   },
+ OPrice: { type: Number   },
+ PPrice: { type: Number   },
+ CPrice: { type: Number   },
+ Projection: { type: Number   },
+ URL: { type: String   },
+ Change: { type: Number   },
+ Location: { type: String   },   
 },{ versionKey: false });  
    
   
-var model = mongo.model('users', UsersSchema, 'users');  
+var model = mongo.model('cards', CardsSchema, 'cards');  
   
-app.post("/api/SaveUser",function(req,res){   
+app.post("/api/SaveCard",function(req,res){   
  var mod = new model(req.body);  
  if(req.body.mode =="Save")  
  {  
@@ -48,7 +60,7 @@ app.post("/api/SaveUser",function(req,res){
 }  
 else   
 {  
- model.findByIdAndUpdate(req.body.id, { name: req.body.name, address: req.body.address},  
+ model.findByIdAndUpdate(req.body.id, { Name: req.body.Name, Icon: req.body.Icon, Detail: req.body.Detail, Rarity: req.body.Rarity, Edition: req.body.Edition, Pack: req.body.Pack, Owned: req.body.Owned, OPrice: req.body.OPrice, PPrice: req.body.PPrice, CPrice: req.body.CPrice, Projection: req.body.Projection, URL: req.body.URL, Change: req.body.Change, Location: req.body.Location},  
    function(err,data) {  
    if (err) {  
    res.send(err);         
@@ -62,7 +74,7 @@ else
 }  
  })  
   
- app.post("/api/deleteUser",function(req,res){      
+ app.post("/api/deleteCard",function(req,res){      
     model.remove({ _id: req.body.id }, function(err) {    
      if(err){    
          res.send(err);    
@@ -75,7 +87,7 @@ else
   
   
   
- app.get("/api/getUser",function(req,res){  
+ app.get("/api/getCard",function(req,res){  
     model.find({},function(err,data){  
               if(err){  
                   res.send(err);  
@@ -87,7 +99,7 @@ else
   })  
   
   
-app.listen(8080, function () {  
+app.listen(27017, function () {  
     
  console.log('Example app listening on port 8080!')  
 })  

@@ -2,8 +2,11 @@ import { Component, OnInit } from "@angular/core";
 import { YgoCard } from "../ygo-card";
 import { Router } from "@angular/router";
 import { YgoServiceService } from "../ygo-service.service";
-import { FormControl } from "@angular/forms";
+import { FormControl, FormGroup, Validators, FormsModule } from "@angular/forms";
 import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
+
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
+
 
 @Component({
   selector: "app-yugioh",
@@ -29,17 +32,54 @@ export class YugiohPage implements OnInit {
     // }
   }
 
+  Repdata;
+  valbutton = "Save";
+
   ngOnInit() {
-    this.dataService.findAll().subscribe(data => {
-      this.yugiohDatabase = data;
-    })
-    console.log("Sucessfully loaded dataService:" + this.yugiohDatabase);
+    this.dataService.GetCard().subscribe(data => this.Repdata = data)
+    console.log("Sucessfully loaded dataService:" + this.dataService);
     this.currentSort = "";
     this.setFilteredItems();
     this.changeProjections(this.yugiohDatabase);
     this.changePercent(this.yugiohDatabase);
     this.checkLocation(this.yugiohDatabase);
   }
+
+  onSave = function(card,isValid: boolean) {    
+    card.mode= this.valbutton;  
+     this.dataService.saveCard(card)  
+     .subscribe(data =>  {  alert(data.data);  
+          
+       this.ngOnInit();    
+     }   
+     , error => this.errorMessage = error )  
+       
+   }     
+
+   edit = function(detail) {  
+    this.ID = detail._id;  
+    this.Name = detail.Name;  
+    this.Icon = detail.Icon;
+    this.Detail = detail.Detail;
+    this.Rarity = detail.Rarity; 
+    this.Edition = detail.Edition;
+    this.Pack = detail.Pack;
+    this.Owned = detail.Owned;
+    this.OPrice = detail.OPrice;
+    this.PPrice = detail.PPrice;   
+    this.CPrice = detail.CPrice;
+    this.Projection = detail.Projection;
+    this.URL = detail.URL;
+    this.Change = detail.Change;
+    this.Location = detail.Location;          
+    this.valbutton ="Update";  
+    }  
+
+    delete = function(id) {  
+      this.dataService.deleteCard(id)  
+      .subscribe(data =>   { alert(data.data) ; this.ngOnInit();}, error => this.errorMessage = error )   
+      }  
+
   // add back when alpha.4 is out
   // navigate(item) {
   //   this.router.navigate(['/Yugioh', JSON.stringify(item)]);

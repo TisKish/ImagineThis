@@ -1,6 +1,92 @@
 <ion-card>
-    <form (ngSubmit)="onSubmit()" #ygoForm="ngForm">
-      <div class="form-group">
+  <form (ngSubmit)="onSave(cardForm.value)" #ygoForm="ngForm" novalidate>
+    <p>Is "myForm" valid? {{cardForm.valid}}</p>
+    <table border='1'>
+      <tr>
+        <td>name</td>
+        <td>
+          <input name="id" type="hidden" [(ngModel)]="id" />
+          <input name="Name" type="text" required [(ngModel)]="Name" />
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>Icon</td>
+        <td> <input name="Icon" required type="text" [(ngModel)]="Icon" /></td>
+      </tr>
+
+      <tr>
+        <td>Detail</td>
+        <td> <input name="Detail" required type="text" [(ngModel)]="Detail" /></td>
+      </tr>
+
+      <tr>
+        <td>Rarity</td>
+        <td> <input name="Rarity" required type="text" [(ngModel)]="Rarity" /></td>
+      </tr>
+
+      <tr>
+        <td>Edition</td>
+        <td> <input name="Edition" required type="text" [(ngModel)]="Edition" /></td>
+      </tr>
+
+      <tr>
+        <td>Pack</td>
+        <td> <input name="Pack" required type="text" [(ngModel)]="Pack" /></td>
+      </tr>
+
+      <tr>
+        <td>Owned</td>
+        <td> <input name="Owned" required type="number" [(ngModel)]="Owned" /></td>
+      </tr>
+
+      <tr>
+        <td>OPrice</td>
+        <td> <input name="OPrice" required type="number" [(ngModel)]="OPrice" /></td>
+      </tr>
+
+      <tr>
+        <td>PPrice</td>
+        <td> <input name="PPrice" required type="number" [(ngModel)]="PPrice" /></td>
+      </tr>
+
+      <tr>
+        <td>CPrice</td>
+        <td> <input name="CPrice" required type="number" [(ngModel)]="CPrice" /></td>
+      </tr>
+
+      <tr>
+        <td>Projection</td>
+        <td> <input name="Projection" required type="number" [(ngModel)]="Projection" /></td>
+      </tr>
+
+      <tr>
+        <td>URL</td>
+        <td> <input name="URL" required type="text" [(ngModel)]="URL" /></td>
+      </tr>
+
+      <tr>
+        <td>Change</td>
+        <td> <input name="Change" required type="number" [(ngModel)]="Change" /></td>
+      </tr>
+
+      <tr>
+        <td>Location</td>
+        <td> <input name="Location" required type="text" [(ngModel)]="Location" /></td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="{{valbutton}}" />
+        </td>
+      </tr>
+    </table>
+  </form>
+
+
+
+  <!-- <div class="form-group">
         <label for="name">Name</label>
         <ion-input type="text" [(ngModel)]="YgoCard.name" class="form-control" id="name" name="name"
           placeholder="Enter the card's name" required #name="ngModel"></ion-input>
@@ -80,5 +166,5 @@
       </div>
 
       <button type="submit" [disabled]="!ygoForm.form.valid" class="btn btn-info">Submit</button>
-    </form>
+    </form> -->
 </ion-card>
