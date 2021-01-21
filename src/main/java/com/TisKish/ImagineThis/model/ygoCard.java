@@ -1,6 +1,6 @@
 package com.TisKish.ImagineThis.model;
 
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "ygoCardDatabase")

@@ -30,7 +30,7 @@
     "core-js": "^2.5.4",
     "express": "^4.17.1",
     "mongodb": "^3.6.2",
-    "mongoose": "^5.9.4",
+    "mongoose": "^5.11.13",
     "replace-in-file": "^5.0.2",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",

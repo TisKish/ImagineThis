@@ -3,6 +3,7 @@ import { YgoCard } from "../ygo-card";
 import { Router } from "@angular/router";
 import { YgoServiceService } from "../ygo-service.service";
 import { FormControl } from "@angular/forms";
+import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
   selector: "app-yugioh",
@@ -11,11 +12,10 @@ import { FormControl } from "@angular/forms";
 })
 export class YugiohPage implements OnInit {
   private selectedItem: any;
-  // thisCard = Card;
-  ygoCards: YgoCard[];
+  ygoCards: any;
   currentSort: any;
   public searchTerm: string = "";
-  public yugiohDatabase: any;
+  public yugiohDatabase: YgoCard[];
   searching: any = false;
   searchControl: FormControl;
 
@@ -31,8 +31,9 @@ export class YugiohPage implements OnInit {
 
   ngOnInit() {
     this.dataService.findAll().subscribe(data => {
-      this.ygoCards = data;
+      this.yugiohDatabase = data;
     })
+    console.log("Sucessfully loaded dataService:" + this.yugiohDatabase);
     this.currentSort = "";
     this.setFilteredItems();
     this.changeProjections(this.yugiohDatabase);
@@ -78,26 +79,8 @@ export class YugiohPage implements OnInit {
   }
 
   fullUpdate() {
-    for (let index = 0; index < this.yugiohDatabase.length; index++) {
-      this.yugiohDatabase[index].PPrice = this.yugiohDatabase[index].CPrice;
-      var newPrice = prompt(
-        "Input the new price for " +
-          this.yugiohDatabase[index].Name +
-          " Rarity: " +
-          this.yugiohDatabase[index].Rarity +
-          " From: " +
-          this.yugiohDatabase[index].Pack
-      );
-
-      if (newPrice != null) {
-        this.yugiohDatabase[index].CPrice = newPrice;
-
-        // --- Try to replace the real values with new values in code ---
-      }
-      if (newPrice == null) {
-        break;
-      }
-    }
+    
+ 
   }
 
   changePercent(list) {
